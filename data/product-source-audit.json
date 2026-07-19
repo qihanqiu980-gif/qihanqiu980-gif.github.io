@@ -9,7 +9,9 @@
     "rawColors": "绿黑/\n白黑/\n白蓝",
     "rawSizes": "外尺寸：550*353*387\n内尺寸：416*212*290",
     "rawPacking": "PO袋 + 纸箱",
-    "rawPriceUnder500": 27.2227138643068,
+    "rawRmbPriceUnder500": 184.57,
+    "rawPriceUnder500": 27.222713864306783,
+    "rawRmbPriceOver1000": 161.5,
     "rawPriceOver1000": 23.8200589970501,
     "imageFound": true
   },
@@ -23,7 +25,9 @@
     "rawColors": "黑白色/\n绿白色/\n绿灰色/\n蓝灰色",
     "rawSizes": "外尺寸：545*360*397\n内尺寸：400*215*335\n展开尺寸：1054×490×420\n椅子尺寸：220*240*260",
     "rawPacking": "PO袋 + 纸箱",
-    "rawPriceUnder500": 47.9557522123894,
+    "rawRmbPriceUnder500": 325.14,
+    "rawPriceUnder500": 47.95575221238938,
+    "rawRmbPriceOver1000": 284.5,
     "rawPriceOver1000": 41.9616519174041,
     "imageFound": true
   },
@@ -37,7 +41,9 @@
     "rawColors": "咖黄色",
     "rawSizes": "外尺寸：555*335*335\n内尺寸：450*248*260",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 200.43,
     "rawPriceUnder500": 29.5619469026549,
+    "rawRmbPriceOver1000": 175.38,
     "rawPriceOver1000": 25.8665191740413,
     "imageFound": true
   },
@@ -51,7 +57,9 @@
     "rawColors": "蓝色/\n白色/\n绿色",
     "rawSizes": "外尺寸：578*380*410\n内尺寸：445*290*340",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 208.57,
     "rawPriceUnder500": 30.7625368731563,
+    "rawRmbPriceOver1000": 182.5,
     "rawPriceOver1000": 26.9174041297935,
     "imageFound": true
   },
@@ -65,7 +73,9 @@
     "rawColors": "蓝色/\n白色/\n绿色",
     "rawSizes": "外尺寸：578*380*410\n内尺寸：445*290*340",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 251.71,
     "rawPriceUnder500": 37.1253687315634,
+    "rawRmbPriceOver1000": 220.25,
     "rawPriceOver1000": 32.4852507374631,
     "imageFound": true
   },
@@ -79,7 +89,9 @@
     "rawColors": "蓝色/\n白色/\n绿色",
     "rawSizes": "外尺寸：648*420*405\n内尺寸：510*306*325",
     "rawPacking": "PE袋 + 纸箱",
+    "rawRmbPriceUnder500": 314.29,
     "rawPriceUnder500": 46.3554572271386,
+    "rawRmbPriceOver1000": 275,
     "rawPriceOver1000": 40.5604719764012,
     "imageFound": true
   },
@@ -93,7 +105,9 @@
     "rawColors": "蓝白/\n灰咖",
     "rawSizes": "外尺寸：605*400*390\n内尺寸：523*300*310",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 221.43,
     "rawPriceUnder500": 32.6592920353982,
+    "rawRmbPriceOver1000": 193.75,
     "rawPriceOver1000": 28.5766961651917,
     "imageFound": true
   },
@@ -107,7 +121,9 @@
     "rawColors": "红/\n蓝",
     "rawSizes": "外尺寸：635*485*372\n内尺寸：535*400*310",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 222.43,
     "rawPriceUnder500": 32.806784660767,
+    "rawRmbPriceOver1000": 194.63,
     "rawPriceOver1000": 28.7057522123894,
     "imageFound": true
   },
@@ -121,7 +137,9 @@
     "rawColors": "白色/\n绿色/\n蓝色",
     "rawSizes": "外尺寸：740*442*428\n内尺寸：580*325*345",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 287.57,
     "rawPriceUnder500": 42.4144542772861,
+    "rawRmbPriceOver1000": 251.63,
     "rawPriceOver1000": 37.1128318584071,
     "imageFound": true
   },
@@ -135,7 +153,9 @@
     "rawColors": "白色/\n绿色/\n蓝色",
     "rawSizes": "外尺寸：740*442*428\n内尺寸：580*325*345",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 333.43,
     "rawPriceUnder500": 49.1784660766962,
+    "rawRmbPriceOver1000": 291.75,
     "rawPriceOver1000": 43.0309734513274,
     "imageFound": true
   },
@@ -149,7 +169,9 @@
     "rawColors": "蓝色",
     "rawSizes": "外尺寸：645*530*386\n内尺寸：545*435*318",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 227.29,
     "rawPriceUnder500": 33.523598820059,
+    "rawRmbPriceOver1000": 198.88,
     "rawPriceOver1000": 29.3325958702065,
     "imageFound": true
   },
@@ -163,7 +185,9 @@
     "rawColors": "白色",
     "rawSizes": "外尺寸：940*550*500\n内尺寸：792*400*400",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 502.57,
     "rawPriceUnder500": 74.1253687315634,
+    "rawRmbPriceOver1000": 439.75,
     "rawPriceOver1000": 64.8598820058997,
     "imageFound": true
   },
@@ -177,7 +201,9 @@
     "rawColors": "白色",
     "rawSizes": "外尺寸：940*550*500\n内尺寸：792*400*400",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 546.43,
     "rawPriceUnder500": 80.594395280236,
+    "rawRmbPriceOver1000": 478.13,
     "rawPriceOver1000": 70.5199115044248,
     "imageFound": true
   },
@@ -191,7 +217,9 @@
     "rawColors": "白灰/\n蓝色/\n白黑",
     "rawSizes": "外尺寸：350*250*310\n内尺寸：280*200*250",
     "rawPacking": "PO袋 + 纸箱",
-    "rawPriceUnder500": 16.6032448377581,
+    "rawRmbPriceUnder500": 112.57,
+    "rawPriceUnder500": 16.603244837758112,
+    "rawRmbPriceOver1000": 98.5,
     "rawPriceOver1000": 14.5280235988201,
     "imageFound": true
   },
@@ -205,7 +233,9 @@
     "rawColors": "红色/\n黑色/\n绿色",
     "rawSizes": "外尺寸：370*268*360\n内尺寸：320*218*225",
     "rawPacking": "PO袋 + 纸箱",
-    "rawPriceUnder500": 33.4601769911504,
+    "rawRmbPriceUnder500": 226.86,
+    "rawPriceUnder500": 33.46017699115044,
+    "rawRmbPriceOver1000": 198.5,
     "rawPriceOver1000": 29.2772861356932,
     "imageFound": true
   },
@@ -219,7 +249,9 @@
     "rawColors": "黑色/\n绿色/\n白色",
     "rawSizes": "外尺寸：460*320*310\n内尺寸：360*250*230",
     "rawPacking": "PO袋 + 纸箱",
-    "rawPriceUnder500": 34.5339233038348,
+    "rawRmbPriceUnder500": 234.14,
+    "rawPriceUnder500": 34.533923303834804,
+    "rawRmbPriceOver1000": 204.875,
     "rawPriceOver1000": 30.2175516224189,
     "imageFound": true
   },
@@ -233,7 +265,9 @@
     "rawColors": "蓝色/\n白黑",
     "rawSizes": "外尺寸：530*440*476\n内尺寸：446*322*387",
     "rawPacking": "PO袋 + 纸箱",
-    "rawPriceUnder500": 53.5398230088496,
+    "rawRmbPriceUnder500": 363,
+    "rawPriceUnder500": 53.53982300884955,
+    "rawRmbPriceOver1000": 317.625,
     "rawPriceOver1000": 46.8473451327434,
     "imageFound": true
   },
@@ -247,8 +281,10 @@
     "rawColors": "粉红/\n粉蓝/\n紫色/\n绿色",
     "rawSizes": "外尺寸：310*205*200\n内尺寸：260*175*112",
     "rawPacking": "PO袋+护角+内纸箱+彩盒",
-    "rawPriceUnder500": 14.0750105351875,
-    "rawPriceOver1000": 12.3156342182891,
+    "rawRmbPriceUnder500": 95.4285714285714,
+    "rawPriceUnder500": 14.075010535187522,
+    "rawRmbPriceOver1000": 83.5,
+    "rawPriceOver1000": 12.315634218289086,
     "imageFound": true
   },
   {
@@ -261,8 +297,10 @@
     "rawColors": "粉红/\n粉蓝/\n紫色/\n绿色",
     "rawSizes": "外尺寸：393*252*254\n内尺寸：343*217*157",
     "rawPacking": "PO袋+护角+内纸箱+彩盒",
-    "rawPriceUnder500": 17.9098187947745,
-    "rawPriceOver1000": 13.3156342182891,
+    "rawRmbPriceUnder500": 121.428571428571,
+    "rawPriceUnder500": 17.909818794774484,
+    "rawRmbPriceOver1000": 106.25,
+    "rawPriceOver1000": 15.671091445427727,
     "imageFound": true
   },
   {
@@ -275,8 +313,10 @@
     "rawColors": "粉红/\n粉蓝/\n紫色/\n绿色",
     "rawSizes": "外尺寸：472*310*305\n内尺寸：408*270*184",
     "rawPacking": "PO袋+护角+内纸箱+彩盒",
+    "rawRmbPriceUnder500": 131.285714285714,
     "rawPriceUnder500": 19.3636746734091,
-    "rawPriceOver1000": 14.3156342182891,
+    "rawRmbPriceOver1000": 114.875,
+    "rawPriceOver1000": 16.94321533923304,
     "imageFound": true
   },
   {
@@ -289,8 +329,10 @@
     "rawColors": "绿色",
     "rawSizes": "外尺寸：180*184*260\n内尺寸：135*135*234",
     "rawPacking": "PO袋 + 十字隔板+纸箱\n（无内盒）",
+    "rawRmbPriceUnder500": 37.5714285714286,
     "rawPriceUnder500": 5.54150863885378,
-    "rawPriceOver1000": 15.3156342182891,
+    "rawRmbPriceOver1000": 32.875,
+    "rawPriceOver1000": 4.84882005899705,
     "imageFound": true
   },
   {
@@ -303,8 +345,10 @@
     "rawColors": "黑色/\n白色",
     "rawSizes": "外尺寸：288*215*190\n内尺寸：225*135*135",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 50.4285714285714,
     "rawPriceUnder500": 7.4378423935946,
-    "rawPriceOver1000": 16.3156342182891,
+    "rawRmbPriceOver1000": 44.125,
+    "rawPriceOver1000": 6.50811209439528,
     "imageFound": true
   },
   {
@@ -317,8 +361,10 @@
     "rawColors": "白灰色/\n卡其色",
     "rawSizes": "外尺寸：265*182*175\n内尺寸：195*125*130",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 24.7142857142857,
     "rawPriceUnder500": 3.64517488411294,
-    "rawPriceOver1000": 17.3156342182891,
+    "rawRmbPriceOver1000": 21.625,
+    "rawPriceOver1000": 3.18952802359882,
     "imageFound": true
   },
   {
@@ -331,8 +377,10 @@
     "rawColors": "白色/\n蓝色/\n绿色",
     "rawSizes": "外尺寸：290*208*204\n内尺寸：220*148*154",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 36.1428571428571,
     "rawPriceUnder500": 5.33080488832701,
-    "rawPriceOver1000": 18.3156342182891,
+    "rawRmbPriceOver1000": 31.625,
+    "rawPriceOver1000": 4.6644542772861355,
     "imageFound": true
   },
   {
@@ -345,8 +393,10 @@
     "rawColors": "白色/\n蓝色",
     "rawSizes": "外尺寸：300*206*203\n内尺寸：230*135*158",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 40.1428571428571,
     "rawPriceUnder500": 5.92077538980193,
-    "rawPriceOver1000": 19.3156342182891,
+    "rawRmbPriceOver1000": 35.125,
+    "rawPriceOver1000": 5.180678466076696,
     "imageFound": true
   },
   {
@@ -359,8 +409,10 @@
     "rawColors": "白色\n/蓝色",
     "rawSizes": "外尺寸：340*258*222\n内尺寸：280*190*165",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 52.5714285714286,
     "rawPriceUnder500": 7.75389801938475,
-    "rawPriceOver1000": 20.3156342182891,
+    "rawRmbPriceOver1000": 46,
+    "rawPriceOver1000": 6.784660766961652,
     "imageFound": true
   },
   {
@@ -373,8 +425,10 @@
     "rawColors": "白绿/\n黑色",
     "rawSizes": "外尺寸：330*232*295\n内尺寸：260*160*230",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 59.8571428571429,
     "rawPriceUnder500": 8.82848714707122,
-    "rawPriceOver1000": 21.3156342182891,
+    "rawRmbPriceOver1000": 52.375,
+    "rawPriceOver1000": 7.724926253687316,
     "imageFound": true
   },
   {
@@ -387,8 +441,10 @@
     "rawColors": "卡其色/\n蓝色",
     "rawSizes": "外尺寸：294*228*310\n内尺寸：245*117*240",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 100.142857142857,
     "rawPriceUnder500": 14.7703329119258,
-    "rawPriceOver1000": 22.3156342182891,
+    "rawRmbPriceOver1000": 87.625,
+    "rawPriceOver1000": 12.924041297935103,
     "imageFound": true
   },
   {
@@ -401,8 +457,10 @@
     "rawColors": "蓝色/\n粉色/\n卡其色",
     "rawSizes": "外尺寸：322*207*198\n内尺寸：250*150*127",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 59.7142857142857,
     "rawPriceUnder500": 8.80741677201854,
-    "rawPriceOver1000": 23.3156342182891,
+    "rawRmbPriceOver1000": 52.25,
+    "rawPriceOver1000": 7.706489675516224,
     "imageFound": true
   },
   {
@@ -415,8 +473,10 @@
     "rawColors": "蓝色/\n粉色/\n卡其色",
     "rawSizes": "外尺寸：400*260*234\n内尺寸：300*180*150",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 63.7142857142857,
     "rawPriceUnder500": 9.39738727349347,
-    "rawPriceOver1000": 24.3156342182891,
+    "rawRmbPriceOver1000": 55.75,
+    "rawPriceOver1000": 8.222713864306785,
     "imageFound": true
   },
   {
@@ -429,8 +489,10 @@
     "rawColors": "蓝色/\n粉色/\n卡其色",
     "rawSizes": "外尺寸：448*293*282\n内尺寸：345*200*177",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 82.8571428571429,
     "rawPriceUnder500": 12.2208175305521,
-    "rawPriceOver1000": 25.3156342182891,
+    "rawRmbPriceOver1000": 72.5,
+    "rawPriceOver1000": 10.693215339233038,
     "imageFound": true
   },
   {
@@ -443,8 +505,10 @@
     "rawColors": "粉色/\n绿色/\n黑色",
     "rawSizes": "外尺寸：358*267*233\n内尺寸：295*192*178",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 70.4285714285714,
     "rawPriceUnder500": 10.3876949009692,
-    "rawPriceOver1000": 26.3156342182891,
+    "rawRmbPriceOver1000": 61.625,
+    "rawPriceOver1000": 9.089233038348082,
     "imageFound": true
   },
   {
@@ -457,8 +521,10 @@
     "rawColors": "粉色/\n绿色/\n黑色/\n深蓝色/\n深绿色",
     "rawSizes": "外尺寸：353*250*233\n内尺寸：295*192*178",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 81.8571428571429,
     "rawPriceUnder500": 12.0733249051833,
-    "rawPriceOver1000": 27.3156342182891,
+    "rawRmbPriceOver1000": 71.625,
+    "rawPriceOver1000": 10.564159292035399,
     "imageFound": true
   },
   {
@@ -471,8 +537,10 @@
     "rawColors": "粉色/\n绿色/\n黑色/\n深蓝色/\n深绿色",
     "rawSizes": "外尺寸：378*270*233\n内尺寸：295*192*178",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 90.2857142857143,
     "rawPriceUnder500": 13.3164770332912,
-    "rawPriceOver1000": 28.3156342182891,
+    "rawRmbPriceOver1000": 79,
+    "rawPriceOver1000": 11.651917404129794,
     "imageFound": true
   },
   {
@@ -485,8 +553,10 @@
     "rawColors": "粉色/\n绿色/\n黑色/\n深蓝色/\n深绿色",
     "rawSizes": "外尺寸：340*268*310\n内尺寸：258*185*253",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 65.2857142857143,
     "rawPriceUnder500": 9.62916139907291,
-    "rawPriceOver1000": 29.3156342182891,
+    "rawRmbPriceOver1000": 57.125,
+    "rawPriceOver1000": 8.42551622418879,
     "imageFound": true
   },
   {
@@ -499,8 +569,10 @@
     "rawColors": "白色",
     "rawSizes": "外尺寸：390*255*290\n内尺寸：305*200*223",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 108.142857142857,
     "rawPriceUnder500": 15.9502739148757,
-    "rawPriceOver1000": 30.3156342182891,
+    "rawRmbPriceOver1000": 94.625,
+    "rawPriceOver1000": 13.956489675516224,
     "imageFound": true
   },
   {
@@ -513,8 +585,10 @@
     "rawColors": "红色/\n黑色/\n绿色",
     "rawSizes": "外尺寸：390*285*360\n内尺寸：305*200*230",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 111.857142857143,
     "rawPriceUnder500": 16.4981036662453,
-    "rawPriceOver1000": 31.3156342182891,
+    "rawRmbPriceOver1000": 97.875,
+    "rawPriceOver1000": 14.435840707964601,
     "imageFound": true
   },
   {
@@ -527,8 +601,10 @@
     "rawColors": "黑色/\n卡其色",
     "rawSizes": "外尺寸：401*266*288\n内尺寸：3415*209*219",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 122.428571428571,
     "rawPriceUnder500": 18.0573114201432,
-    "rawPriceOver1000": 32.3156342182891,
+    "rawRmbPriceOver1000": 107.125,
+    "rawPriceOver1000": 15.800147492625369,
     "imageFound": true
   },
   {
@@ -541,8 +617,10 @@
     "rawColors": "黑色/\n卡其色",
     "rawSizes": "外尺寸：401*266*288\n内尺寸：3415*209*219",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 159,
     "rawPriceUnder500": 23.4513274336283,
-    "rawPriceOver1000": 33.3156342182891,
+    "rawRmbPriceOver1000": 139.125,
+    "rawPriceOver1000": 20.51991150442478,
     "imageFound": true
   },
   {
@@ -555,8 +633,10 @@
     "rawColors": "蓝色/\n白色",
     "rawSizes": "外尺寸：405*320*290\n内尺寸：315*235*223",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 80.7142857142857,
     "rawPriceUnder500": 11.9047619047619,
-    "rawPriceOver1000": 34.3156342182891,
+    "rawRmbPriceOver1000": 70.625,
+    "rawPriceOver1000": 10.416666666666666,
     "imageFound": true
   },
   {
@@ -569,8 +649,10 @@
     "rawColors": "白绿/\n军绿色",
     "rawSizes": "外尺寸：450*310*378\n内尺寸：355*220*305",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 106.142857142857,
     "rawPriceUnder500": 15.6552886641382,
-    "rawPriceOver1000": 35.3156342182891,
+    "rawRmbPriceOver1000": 92.875,
+    "rawPriceOver1000": 13.698377581120944,
     "imageFound": true
   },
   {
@@ -583,8 +665,10 @@
     "rawColors": "蓝色",
     "rawSizes": "外尺寸：340*340*410\n内尺寸：270*210*338",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 91.8571428571429,
     "rawPriceUnder500": 13.5482511588706,
-    "rawPriceOver1000": 36.3156342182891,
+    "rawRmbPriceOver1000": 80.375,
+    "rawPriceOver1000": 11.854719764011799,
     "imageFound": true
   },
   {
@@ -597,8 +681,10 @@
     "rawColors": "白灰色/\n蓝色/\n棕色/\n绿色",
     "rawSizes": "外尺寸：470*340*410\n内尺寸：360*230*340",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 118,
     "rawPriceUnder500": 17.4041297935103,
-    "rawPriceOver1000": 37.3156342182891,
+    "rawRmbPriceOver1000": 103.25,
+    "rawPriceOver1000": 15.228613569321533,
     "imageFound": true
   },
   {
@@ -611,8 +697,10 @@
     "rawColors": "白灰",
     "rawSizes": "外尺寸：373*324*381\n内尺寸：296*230*276",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 171.142857142857,
     "rawPriceUnder500": 25.2423093131057,
-    "rawPriceOver1000": 38.3156342182891,
+    "rawRmbPriceOver1000": 149.75,
+    "rawPriceOver1000": 22.087020648967552,
     "imageFound": true
   },
   {
@@ -625,8 +713,10 @@
     "rawColors": "黑色/\n白色",
     "rawSizes": "外尺寸：400*320*315\n内尺寸：341*209*219",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 158.285714285714,
     "rawPriceUnder500": 23.3459755583649,
-    "rawPriceOver1000": 39.3156342182891,
+    "rawRmbPriceOver1000": 138.5,
+    "rawPriceOver1000": 20.42772861356932,
     "imageFound": true
   },
   {
@@ -639,8 +729,10 @@
     "rawColors": "黑色/\n白色",
     "rawSizes": "外尺寸：427*340*405\n内尺寸：315*210*330",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 232.857142857143,
     "rawPriceUnder500": 34.3447113358618,
-    "rawPriceOver1000": 40.3156342182891,
+    "rawRmbPriceOver1000": 203.75,
+    "rawPriceOver1000": 30.051622418879056,
     "imageFound": true
   },
   {
@@ -653,8 +745,10 @@
     "rawColors": "黑色/\n白色",
     "rawSizes": "外尺寸：465*405*460\n内尺寸：370*225*378",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 172.571428571429,
     "rawPriceUnder500": 25.4530130636326,
-    "rawPriceOver1000": 41.3156342182891,
+    "rawRmbPriceOver1000": 151,
+    "rawPriceOver1000": 22.271386430678465,
     "imageFound": true
   },
   {
@@ -667,8 +761,10 @@
     "rawColors": "黑色/\n白色",
     "rawSizes": "外尺寸：465*405*460\n内尺寸：370*225*378",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 239.714285714286,
     "rawPriceUnder500": 35.3560893383903,
-    "rawPriceOver1000": 42.3156342182891,
+    "rawRmbPriceOver1000": 209.75,
+    "rawPriceOver1000": 30.936578171091444,
     "imageFound": true
   },
   {
@@ -681,8 +777,10 @@
     "rawColors": "蓝色/\n米棕色",
     "rawSizes": "外尺寸：460*356*440\n内尺寸：360*230*340",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 183.428571428571,
     "rawPriceUnder500": 27.0543615676358,
-    "rawPriceOver1000": 43.3156342182891,
+    "rawRmbPriceOver1000": 160.5,
+    "rawPriceOver1000": 23.672566371681416,
     "imageFound": true
   },
   {
@@ -695,8 +793,10 @@
     "rawColors": "蓝色/\n白黑",
     "rawSizes": "外尺寸：528*415*480\n内尺寸：424*270*390",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 255.714285714286,
     "rawPriceUnder500": 37.71597134429,
-    "rawPriceOver1000": 44.3156342182891,
+    "rawRmbPriceOver1000": 223.75,
+    "rawPriceOver1000": 33.001474926253685,
     "imageFound": true
   },
   {
@@ -709,7 +809,9 @@
     "rawColors": "绿色",
     "rawSizes": "外尺寸：294*208*216\n内尺寸：240*144*180",
     "rawPacking": "PO袋 + 纸箱",
-    "rawPriceUnder500": 6.79098187947745,
+    "rawRmbPriceUnder500": 46.0428571428571,
+    "rawPriceUnder500": 6.790981879477449,
+    "rawRmbPriceOver1000": 40.2875,
     "rawPriceOver1000": 5.94210914454277,
     "imageFound": true
   },
@@ -723,7 +825,9 @@
     "rawColors": "绿色",
     "rawSizes": "外尺寸：294*208*276\n内尺寸：40*144*240",
     "rawPacking": "PO袋 + 纸箱",
-    "rawPriceUnder500": 7.83817951959546,
+    "rawRmbPriceUnder500": 53.1428571428572,
+    "rawPriceUnder500": 7.838179519595458,
+    "rawRmbPriceOver1000": 46.5,
     "rawPriceOver1000": 6.85840707964602,
     "imageFound": true
   },
@@ -737,7 +841,9 @@
     "rawColors": "绿色/\n蓝色/\n白色/\n灰色",
     "rawSizes": "外尺寸：294*208*387\n内尺寸：240*144*350",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 146.428571428571,
     "rawPriceUnder500": 21.5971344289928,
+    "rawRmbPriceOver1000": 128.125,
     "rawPriceOver1000": 18.8974926253687,
     "imageFound": true
   },
@@ -751,7 +857,9 @@
     "rawColors": "绿色",
     "rawSizes": "外尺寸：337*265*263\n内尺寸：320*200*221",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 75.7142857142857,
     "rawPriceUnder500": 11.1672987779182,
+    "rawRmbPriceOver1000": 66.25,
     "rawPriceOver1000": 9.77138643067846,
     "imageFound": true
   },
@@ -765,7 +873,9 @@
     "rawColors": "绿色",
     "rawSizes": "外尺寸：337*265*318\n内尺寸：320*200*276",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 87.4285714285714,
     "rawPriceUnder500": 12.8950695322377,
+    "rawRmbPriceOver1000": 76.5,
     "rawPriceOver1000": 11.283185840708,
     "imageFound": true
   },
@@ -779,7 +889,9 @@
     "rawColors": "绿色",
     "rawSizes": "外尺寸：470*300*298\n内尺寸：400*220*248",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 97.1428571428572,
     "rawPriceUnder500": 14.3278550358196,
+    "rawRmbPriceOver1000": 85,
     "rawPriceOver1000": 12.5368731563422,
     "imageFound": true
   },
@@ -793,7 +905,9 @@
     "rawColors": "绿色",
     "rawSizes": "外尺寸：470*300*408\n内尺寸：400*220*358",
     "rawPacking": "PO袋 + 纸箱",
+    "rawRmbPriceUnder500": 142.857142857143,
     "rawPriceUnder500": 21.070375052676,
+    "rawRmbPriceOver1000": 125,
     "rawPriceOver1000": 18.4365781710914,
     "imageFound": true
   },
@@ -807,7 +921,9 @@
     "rawColors": "白灰/\n蓝色",
     "rawSizes": "外尺寸：350*260*290\n\n内尺寸：260*170*190",
     "rawPacking": "PO袋 + 纸箱",
-    "rawPriceUnder500": 11.2726506531816,
+    "rawRmbPriceUnder500": 76.4285714285714,
+    "rawPriceUnder500": 11.272650653181623,
+    "rawRmbPriceOver1000": 66.875,
     "rawPriceOver1000": 9.86356932153392,
     "imageFound": true
   },
@@ -821,7 +937,9 @@
     "rawColors": "白色/\n蓝色",
     "rawSizes": "外尺寸：410*250*278\n内尺寸：325*165*205",
     "rawPacking": "PO袋 + 纸箱",
-    "rawPriceUnder500": 12.3683101559208,
+    "rawRmbPriceUnder500": 83.8571428571429,
+    "rawPriceUnder500": 12.368310155920781,
+    "rawRmbPriceOver1000": 73.375,
     "rawPriceOver1000": 10.8222713864307,
     "imageFound": true
   },
@@ -835,7 +953,9 @@
     "rawColors": "白色",
     "rawSizes": "外尺寸：400*320*313\n内尺寸：363*250*240",
     "rawPacking": "PO袋 + 纸箱",
-    "rawPriceUnder500": 21.3864306784661,
+    "rawRmbPriceUnder500": 145,
+    "rawPriceUnder500": 21.386430678466077,
+    "rawRmbPriceOver1000": 126.875,
     "rawPriceOver1000": 18.7131268436578,
     "imageFound": true
   },
@@ -849,7 +969,9 @@
     "rawColors": "绿色/\n灰色",
     "rawSizes": "外尺寸：455*360*315\n内尺寸：350*235*240",
     "rawPacking": "PO袋 + 纸箱",
-    "rawPriceUnder500": 20.8386009270965,
+    "rawRmbPriceUnder500": 141.285714285714,
+    "rawPriceUnder500": 20.838600927096458,
+    "rawRmbPriceOver1000": 123.625,
     "rawPriceOver1000": 18.2337758112094,
     "imageFound": true
   },
@@ -863,7 +985,9 @@
     "rawColors": "蓝色",
     "rawSizes": "外尺寸：555*335*335\n内尺寸：450*248*260",
     "rawPacking": "PO袋 + 纸箱",
-    "rawPriceUnder500": 26.1272650653181,
+    "rawRmbPriceUnder500": 177.142857142857,
+    "rawPriceUnder500": 26.12726506531814,
+    "rawRmbPriceOver1000": 155,
     "rawPriceOver1000": 22.8613569321534,
     "imageFound": true
   }

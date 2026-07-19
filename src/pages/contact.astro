@@ -26,20 +26,43 @@ import { whatsappUrl } from "../lib/products";
         </dl>
       </div>
 
-      <form class="quote-form" action={siteConfig.formspreeEndpoint} method="POST" data-quote-form>
+      <form
+        class="quote-form"
+        action={siteConfig.formspreeEndpoint || undefined}
+        method="POST"
+        data-quote-form
+        data-endpoint={siteConfig.formspreeEndpoint}
+        data-whatsapp-number={siteConfig.whatsappNumber}
+        data-locale="en"
+      >
         <div class="form-grid">
-          <label class="field"><span>Name *</span><input name="name" autocomplete="name" required /></label>
-          <label class="field"><span>Company *</span><input name="company" autocomplete="organization" required /></label>
-          <label class="field"><span>Country / Region</span><input name="country" autocomplete="country-name" /></label>
-          <label class="field"><span>Email</span><input type="email" name="email" autocomplete="email" /></label>
-          <label class="field"><span>WhatsApp</span><input name="whatsapp" autocomplete="tel" /></label>
-          <label class="field"><span>Product Model *</span><input name="product_model" data-model-field required /></label>
-          <label class="field"><span>Purchase Quantity *</span><input type="number" min="1" name="purchase_quantity" required /></label>
-          <label class="field field-wide"><span>Requirements</span><textarea name="requirements" rows="5" placeholder="Color, packaging, destination market, target date or OEM/ODM needs"></textarea></label>
+          <label class="field"><span>Name *</span><input name="name" autocomplete="name" maxlength="100" required /></label>
+          <label class="field"><span>Company *</span><input name="company" autocomplete="organization" maxlength="150" required /></label>
+          <label class="field"><span>Country / Region</span><input name="country" autocomplete="country-name" maxlength="100" /></label>
+          <label class="field"><span>Email</span><input type="email" name="email" autocomplete="email" maxlength="254" aria-describedby="contact-method-error" /></label>
+          <label class="field"><span>WhatsApp</span><input name="whatsapp" autocomplete="tel" inputmode="tel" maxlength="40" aria-describedby="contact-method-error" /></label>
+          <p class="field-error field-wide" id="contact-method-error" data-contact-error role="alert" hidden>Please enter an email address or WhatsApp number.</p>
+          <label class="field"><span>Product Model *</span><input name="product_model" data-model-field maxlength="100" required /></label>
+          <label class="field"><span>Purchase Quantity *</span><input type="number" min="1" max="10000000" name="purchase_quantity" required /></label>
+          <label class="field field-wide"><span>Requirements</span><textarea name="requirements" rows="5" maxlength="2000" placeholder="Color, packaging, destination market, target date or OEM/ODM needs"></textarea></label>
         </div>
+        <div class="honeypot" aria-hidden="true"><label>Leave this field empty<input name="_gotcha" tabindex="-1" autocomplete="off" /></label></div>
         <input type="hidden" name="_subject" value="New LONFRO website inquiry" />
-        <button class="button button-primary" type="submit">Submit Inquiry</button>
-        <p class="form-note">Form delivery is in placeholder mode. Replace the Formspree endpoint in <code>src/config.ts</code> before launch.</p>
+        <div class="form-actions">
+          <button
+            class="button button-primary"
+            type="submit"
+            data-submit-button
+            data-idle-label={siteConfig.formspreeEndpoint ? "Submit Inquiry" : "Continue on WhatsApp"}
+            data-loading-label="Sending..."
+          >{siteConfig.formspreeEndpoint ? "Submit Inquiry" : "Continue on WhatsApp"}</button>
+          <button class="button button-secondary" type="button" data-retry-button hidden>Try Again</button>
+        </div>
+        <div class="form-status" data-form-status role="status" aria-live="polite" hidden></div>
+        <p class="form-recovery" data-form-recovery hidden>
+          You can also <a href={whatsappUrl()} target="_blank" rel="noopener noreferrer" data-form-whatsapp>send this inquiry on WhatsApp</a>.
+        </p>
+        {!siteConfig.formspreeEndpoint && <p class="form-note">Your details stay in this form while your inquiry opens in WhatsApp for review and sending.</p>}
       </form>
     </div>
   </section>

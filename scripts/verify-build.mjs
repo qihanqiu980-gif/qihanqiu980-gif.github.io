@@ -8,10 +8,17 @@ const dist = path.join(root, "dist");
 const auditById = new Map(audit.map((item) => [item.id, item]));
 const failures = [];
 const htmlFiles = [];
+const exchangeRate = 6.78;
+const priceTolerance = 0.02;
 
 const roundPrice = (value) => {
   const number = Number(value);
   return Number.isFinite(number) && number > 0 ? Math.round(number * 100) / 100 : null;
+};
+
+const positiveNumber = (value) => {
+  const number = Number(value);
+  return Number.isFinite(number) && number > 0 ? number : null;
 };
 
 async function exists(target) {
@@ -34,6 +41,13 @@ for (const product of products) {
   if (!source) failures.push(`Missing audit record for ${product.slug}`);
   if (product.pricing.under500 !== roundPrice(source?.rawPriceUnder500)) failures.push(`Under-500 price mismatch: ${product.slug}`);
   if (product.pricing.over1000 !== roundPrice(source?.rawPriceOver1000)) failures.push(`1000+ price mismatch: ${product.slug}`);
+  const rmbUnder500 = positiveNumber(source?.rawRmbPriceUnder500);
+  const usdUnder500 = positiveNumber(source?.rawPriceUnder500);
+  const rmbOver1000 = positiveNumber(source?.rawRmbPriceOver1000);
+  const usdOver1000 = positiveNumber(source?.rawPriceOver1000);
+  if (rmbUnder500 !== null && usdUnder500 !== null && Math.abs(usdUnder500 - (rmbUnder500 / exchangeRate)) > priceTolerance) failures.push(`Under-500 RMB/USD conversion mismatch: ${product.slug}`);
+  if (rmbOver1000 !== null && usdOver1000 !== null && Math.abs(usdOver1000 - (rmbOver1000 / exchangeRate)) > priceTolerance) failures.push(`1000+ RMB/USD conversion mismatch: ${product.slug}`);
+  if (usdUnder500 !== null && usdOver1000 !== null && usdOver1000 > usdUnder500 + priceTolerance) failures.push(`1000+ price is higher than under-500 price: ${product.slug}`);
   if (product.pricing.contactRange !== "501-999 pcs") failures.push(`Contact tier mismatch: ${product.slug}`);
   if (!product.zh?.title || !product.zh?.seriesName) failures.push(`Missing Chinese product copy: ${product.slug}`);
   if (!(await exists(path.join(root, "public", product.image)))) failures.push(`Missing product image: ${product.image}`);
@@ -51,11 +65,25 @@ for (const htmlFile of htmlFiles) {
   if (!isChinesePage && /[\u3400-\u9fff]/.test(englishContent)) failures.push(`Chinese text found in English HTML: ${relativeHtml}`);
   if (isChinesePage && !/[\u3400-\u9fff]/.test(html)) failures.push(`Chinese text missing from Chinese HTML: ${relativeHtml}`);
   if (/[—–]/.test(html)) failures.push(`Disallowed dash found in public HTML: ${path.relative(dist, htmlFile)}`);
+  if (/REPLACE_ME|placeholder mode|当前表单仍为占位配置/.test(html)) failures.push(`Form placeholder content found in public HTML: ${relativeHtml}`);
   for (const match of html.matchAll(/href="([^"]+)"/g)) {
     const href = match[1];
     if (!href.startsWith("/") || href.startsWith("//")) continue;
     internalLinks.add(href.split("#")[0].split("?")[0]);
   }
+}
+
+for (const contactPage of ["contact/index.html", "zh/contact/index.html"]) {
+  const target = path.join(dist, contactPage);
+  if (!(await exists(target))) {
+    failures.push(`Missing contact page: ${contactPage}`);
+    continue;
+  }
+  const html = await fs.readFile(target, "utf8");
+  for (const marker of ["data-quote-form", "data-form-status", "data-contact-error", "data-form-whatsapp"]) {
+    if (!html.includes(marker)) failures.push(`Missing ${marker} on ${contactPage}`);
+  }
+  if (!process.env.PUBLIC_FORMSPREE_ENDPOINT && !/Continue on WhatsApp|转到 WhatsApp 发送/.test(html)) failures.push(`WhatsApp fallback is not enabled on ${contactPage}`);
 }
 
 for (const href of internalLinks) {

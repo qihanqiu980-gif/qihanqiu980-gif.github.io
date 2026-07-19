@@ -693,8 +693,8 @@
     "pricing": {
       "under500": 17.91,
       "contactRange": "501-999 pcs",
-      "over1000": 13.32,
-      "lowest": 13.32
+      "over1000": 15.67,
+      "lowest": 15.67
     },
     "source": {
       "sheet": "户外系列",
@@ -730,8 +730,8 @@
     "pricing": {
       "under500": 19.36,
       "contactRange": "501-999 pcs",
-      "over1000": 14.32,
-      "lowest": 14.32
+      "over1000": 16.94,
+      "lowest": 16.94
     },
     "source": {
       "sheet": "户外系列",
@@ -767,8 +767,8 @@
     "pricing": {
       "under500": 5.54,
       "contactRange": "501-999 pcs",
-      "over1000": 15.32,
-      "lowest": 5.54
+      "over1000": 4.85,
+      "lowest": 4.85
     },
     "source": {
       "sheet": "户外系列",
@@ -804,8 +804,8 @@
     "pricing": {
       "under500": 7.44,
       "contactRange": "501-999 pcs",
-      "over1000": 16.32,
-      "lowest": 7.44
+      "over1000": 6.51,
+      "lowest": 6.51
     },
     "source": {
       "sheet": "户外系列",
@@ -841,8 +841,8 @@
     "pricing": {
       "under500": 3.65,
       "contactRange": "501-999 pcs",
-      "over1000": 17.32,
-      "lowest": 3.65
+      "over1000": 3.19,
+      "lowest": 3.19
     },
     "source": {
       "sheet": "户外系列",
@@ -878,8 +878,8 @@
     "pricing": {
       "under500": 5.33,
       "contactRange": "501-999 pcs",
-      "over1000": 18.32,
-      "lowest": 5.33
+      "over1000": 4.66,
+      "lowest": 4.66
     },
     "source": {
       "sheet": "户外系列",
@@ -915,8 +915,8 @@
     "pricing": {
       "under500": 5.92,
       "contactRange": "501-999 pcs",
-      "over1000": 19.32,
-      "lowest": 5.92
+      "over1000": 5.18,
+      "lowest": 5.18
     },
     "source": {
       "sheet": "户外系列",
@@ -952,8 +952,8 @@
     "pricing": {
       "under500": 7.75,
       "contactRange": "501-999 pcs",
-      "over1000": 20.32,
-      "lowest": 7.75
+      "over1000": 6.78,
+      "lowest": 6.78
     },
     "source": {
       "sheet": "户外系列",
@@ -989,8 +989,8 @@
     "pricing": {
       "under500": 8.83,
       "contactRange": "501-999 pcs",
-      "over1000": 21.32,
-      "lowest": 8.83
+      "over1000": 7.72,
+      "lowest": 7.72
     },
     "source": {
       "sheet": "户外系列",
@@ -1026,8 +1026,8 @@
     "pricing": {
       "under500": 14.77,
       "contactRange": "501-999 pcs",
-      "over1000": 22.32,
-      "lowest": 14.77
+      "over1000": 12.92,
+      "lowest": 12.92
     },
     "source": {
       "sheet": "户外系列",
@@ -1063,8 +1063,8 @@
     "pricing": {
       "under500": 8.81,
       "contactRange": "501-999 pcs",
-      "over1000": 23.32,
-      "lowest": 8.81
+      "over1000": 7.71,
+      "lowest": 7.71
     },
     "source": {
       "sheet": "户外系列",
@@ -1100,8 +1100,8 @@
     "pricing": {
       "under500": 9.4,
       "contactRange": "501-999 pcs",
-      "over1000": 24.32,
-      "lowest": 9.4
+      "over1000": 8.22,
+      "lowest": 8.22
     },
     "source": {
       "sheet": "户外系列",
@@ -1122,7 +1122,7 @@
     "material": "Shell and lid and Inner liner: PP; Handle: Shoulder strap; Insulation: EPS foam; (6-sided)",
     "sizes": "External: 448 x 293 x 282; Internal: 345 x 200 x 177",
     "netWeightKg": 1.53,
-    "grossWeightKg": "2.18\r",
+    "grossWeightKg": "2.18\n",
     "packing": "PO bag + carton",
     "cartonQty": 1,
     "zh": {
@@ -1137,8 +1137,8 @@
     "pricing": {
       "under500": 12.22,
       "contactRange": "501-999 pcs",
-      "over1000": 25.32,
-      "lowest": 12.22
+      "over1000": 10.69,
+      "lowest": 10.69
     },
     "source": {
       "sheet": "户外系列",
@@ -1174,8 +1174,8 @@
     "pricing": {
       "under500": 10.39,
       "contactRange": "501-999 pcs",
-      "over1000": 26.32,
-      "lowest": 10.39
+      "over1000": 9.09,
+      "lowest": 9.09
     },
     "source": {
       "sheet": "户外系列",
@@ -1211,8 +1211,8 @@
     "pricing": {
       "under500": 12.07,
       "contactRange": "501-999 pcs",
-      "over1000": 27.32,
-      "lowest": 12.07
+      "over1000": 10.56,
+      "lowest": 10.56
     },
     "source": {
       "sheet": "户外系列",
@@ -1248,8 +1248,8 @@
     "pricing": {
       "under500": 13.32,
       "contactRange": "501-999 pcs",
-      "over1000": 28.32,
-      "lowest": 13.32
+      "over1000": 11.65,
+      "lowest": 11.65
     },
     "source": {
       "sheet": "户外系列",
@@ -1285,8 +1285,8 @@
     "pricing": {
       "under500": 9.63,
       "contactRange": "501-999 pcs",
-      "over1000": 29.32,
-      "lowest": 9.63
+      "over1000": 8.43,
+      "lowest": 8.43
     },
     "source": {
       "sheet": "户外系列",
@@ -1322,8 +1322,8 @@
     "pricing": {
       "under500": 15.95,
       "contactRange": "501-999 pcs",
-      "over1000": 30.32,
-      "lowest": 15.95
+      "over1000": 13.96,
+      "lowest": 13.96
     },
     "source": {
       "sheet": "户外系列",
@@ -1359,8 +1359,8 @@
     "pricing": {
       "under500": 16.5,
       "contactRange": "501-999 pcs",
-      "over1000": 31.32,
-      "lowest": 16.5
+      "over1000": 14.44,
+      "lowest": 14.44
     },
     "source": {
       "sheet": "户外系列",
@@ -1396,8 +1396,8 @@
     "pricing": {
       "under500": 18.06,
       "contactRange": "501-999 pcs",
-      "over1000": 32.32,
-      "lowest": 18.06
+      "over1000": 15.8,
+      "lowest": 15.8
     },
     "source": {
       "sheet": "户外系列",
@@ -1433,8 +1433,8 @@
     "pricing": {
       "under500": 23.45,
       "contactRange": "501-999 pcs",
-      "over1000": 33.32,
-      "lowest": 23.45
+      "over1000": 20.52,
+      "lowest": 20.52
     },
     "source": {
       "sheet": "户外系列",
@@ -1470,8 +1470,8 @@
     "pricing": {
       "under500": 11.9,
       "contactRange": "501-999 pcs",
-      "over1000": 34.32,
-      "lowest": 11.9
+      "over1000": 10.42,
+      "lowest": 10.42
     },
     "source": {
       "sheet": "户外系列",
@@ -1507,8 +1507,8 @@
     "pricing": {
       "under500": 15.66,
       "contactRange": "501-999 pcs",
-      "over1000": 35.32,
-      "lowest": 15.66
+      "over1000": 13.7,
+      "lowest": 13.7
     },
     "source": {
       "sheet": "户外系列",
@@ -1544,8 +1544,8 @@
     "pricing": {
       "under500": 13.55,
       "contactRange": "501-999 pcs",
-      "over1000": 36.32,
-      "lowest": 13.55
+      "over1000": 11.85,
+      "lowest": 11.85
     },
     "source": {
       "sheet": "户外系列",
@@ -1581,8 +1581,8 @@
     "pricing": {
       "under500": 17.4,
       "contactRange": "501-999 pcs",
-      "over1000": 37.32,
-      "lowest": 17.4
+      "over1000": 15.23,
+      "lowest": 15.23
     },
     "source": {
       "sheet": "户外系列",
@@ -1618,8 +1618,8 @@
     "pricing": {
       "under500": 25.24,
       "contactRange": "501-999 pcs",
-      "over1000": 38.32,
-      "lowest": 25.24
+      "over1000": 22.09,
+      "lowest": 22.09
     },
     "source": {
       "sheet": "户外系列",
@@ -1655,8 +1655,8 @@
     "pricing": {
       "under500": 23.35,
       "contactRange": "501-999 pcs",
-      "over1000": 39.32,
-      "lowest": 23.35
+      "over1000": 20.43,
+      "lowest": 20.43
     },
     "source": {
       "sheet": "户外系列",
@@ -1692,8 +1692,8 @@
     "pricing": {
       "under500": 34.34,
       "contactRange": "501-999 pcs",
-      "over1000": 40.32,
-      "lowest": 34.34
+      "over1000": 30.05,
+      "lowest": 30.05
     },
     "source": {
       "sheet": "户外系列",
@@ -1729,8 +1729,8 @@
     "pricing": {
       "under500": 25.45,
       "contactRange": "501-999 pcs",
-      "over1000": 41.32,
-      "lowest": 25.45
+      "over1000": 22.27,
+      "lowest": 22.27
     },
     "source": {
       "sheet": "户外系列",
@@ -1766,8 +1766,8 @@
     "pricing": {
       "under500": 35.36,
       "contactRange": "501-999 pcs",
-      "over1000": 42.32,
-      "lowest": 35.36
+      "over1000": 30.94,
+      "lowest": 30.94
     },
     "source": {
       "sheet": "户外系列",
@@ -1803,8 +1803,8 @@
     "pricing": {
       "under500": 27.05,
       "contactRange": "501-999 pcs",
-      "over1000": 43.32,
-      "lowest": 27.05
+      "over1000": 23.67,
+      "lowest": 23.67
     },
     "source": {
       "sheet": "户外系列",
@@ -1840,8 +1840,8 @@
     "pricing": {
       "under500": 37.72,
       "contactRange": "501-999 pcs",
-      "over1000": 44.32,
-      "lowest": 37.72
+      "over1000": 33,
+      "lowest": 33
     },
     "source": {
       "sheet": "户外系列",

@@ -4,7 +4,7 @@
 
 ## 当前内容
 
-- 62 款产品，严格读取上级目录中的 `保温箱-2026年柬埔寨丽卡报价.xlsx`
+- 62 款产品，自动优先读取上级 `参考` 目录中的 `保温箱-2026年柬埔寨丽卡报价.xlsx`
 - 产品图从 Excel 内嵌图片自动提取
 - 产品名称、材质、颜色、规格和包装信息自动生成英文展示内容
 - 中文版本使用 Excel 中的原始中文产品字段，并与英文版共用同一产品图、价格和稳定 slug
@@ -32,7 +32,7 @@
 
 ### 更新 Excel 后重新生成
 
-1. 将新版报价表放在 `lonfro-site` 的上一级目录，或上一级的 `参考` 文件夹。
+1. 将新版报价表放在 `lonfro-site` 上一级的 `参考` 文件夹（也兼容直接放在上一级目录）。
 2. 文件名保持为 `保温箱-2026年柬埔寨丽卡报价.xlsx`。
 3. 双击 `更新并生成网站.command`。
 4. 生成结果位于 `dist` 文件夹。
@@ -43,11 +43,24 @@
 LONFRO_WORKBOOK="/完整路径/新版报价.xlsx" npm run build
 ```
 
+Logo 路径变化时可以使用：
+
+```bash
+LONFRO_LOGO="/完整路径/新版Logo.png" npm run build
+```
+
 ## 正式上线前必须配置
+
+复制 `.env.example` 为 `.env`，填写正式 Formspree 地址：
+
+```bash
+PUBLIC_FORMSPREE_ENDPOINT=https://formspree.io/f/你的表单ID
+```
+
+未配置时，询价表单会把填写内容整理后转到 WhatsApp，不会向无效地址提交。
 
 编辑 `src/config.ts`：
 
-- 将 `formspreeEndpoint` 替换为正式 Formspree 地址
 - 填写 Google Analytics Measurement ID
 - 填写 TikTok Pixel ID
 - 如联系方式变化，在同一文件内更新

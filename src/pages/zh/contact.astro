@@ -26,20 +26,43 @@ import { whatsappUrl } from "../../lib/products";
         </dl>
       </div>
 
-      <form class="quote-form" action={siteConfig.formspreeEndpoint} method="POST" data-quote-form>
+      <form
+        class="quote-form"
+        action={siteConfig.formspreeEndpoint || undefined}
+        method="POST"
+        data-quote-form
+        data-endpoint={siteConfig.formspreeEndpoint}
+        data-whatsapp-number={siteConfig.whatsappNumber}
+        data-locale="zh"
+      >
         <div class="form-grid">
-          <label class="field"><span>姓名 *</span><input name="name" autocomplete="name" required /></label>
-          <label class="field"><span>公司名称 *</span><input name="company" autocomplete="organization" required /></label>
-          <label class="field"><span>国家 / 地区</span><input name="country" autocomplete="country-name" /></label>
-          <label class="field"><span>电子邮箱</span><input type="email" name="email" autocomplete="email" /></label>
-          <label class="field"><span>WhatsApp</span><input name="whatsapp" autocomplete="tel" /></label>
-          <label class="field"><span>产品型号 *</span><input name="product_model" data-model-field required /></label>
-          <label class="field"><span>采购数量 *</span><input type="number" min="1" name="purchase_quantity" required /></label>
-          <label class="field field-wide"><span>需求说明</span><textarea name="requirements" rows="5" placeholder="颜色、包装、目的市场、目标日期或 OEM/ODM 需求"></textarea></label>
+          <label class="field"><span>姓名 *</span><input name="name" autocomplete="name" maxlength="100" required /></label>
+          <label class="field"><span>公司名称 *</span><input name="company" autocomplete="organization" maxlength="150" required /></label>
+          <label class="field"><span>国家 / 地区</span><input name="country" autocomplete="country-name" maxlength="100" /></label>
+          <label class="field"><span>电子邮箱</span><input type="email" name="email" autocomplete="email" maxlength="254" aria-describedby="zh-contact-method-error" /></label>
+          <label class="field"><span>WhatsApp</span><input name="whatsapp" autocomplete="tel" inputmode="tel" maxlength="40" aria-describedby="zh-contact-method-error" /></label>
+          <p class="field-error field-wide" id="zh-contact-method-error" data-contact-error role="alert" hidden>请至少填写电子邮箱或 WhatsApp 号码。</p>
+          <label class="field"><span>产品型号 *</span><input name="product_model" data-model-field maxlength="100" required /></label>
+          <label class="field"><span>采购数量 *</span><input type="number" min="1" max="10000000" name="purchase_quantity" required /></label>
+          <label class="field field-wide"><span>需求说明</span><textarea name="requirements" rows="5" maxlength="2000" placeholder="颜色、包装、目的市场、目标日期或 OEM/ODM 需求"></textarea></label>
         </div>
+        <div class="honeypot" aria-hidden="true"><label>请留空<input name="_gotcha" tabindex="-1" autocomplete="off" /></label></div>
         <input type="hidden" name="_subject" value="LONFRO 中文网站新询盘" />
-        <button class="button button-primary" type="submit">提交询盘</button>
-        <p class="form-note">当前表单仍为占位配置。正式上线前，请在 <code>src/config.ts</code> 中替换 Formspree 地址。</p>
+        <div class="form-actions">
+          <button
+            class="button button-primary"
+            type="submit"
+            data-submit-button
+            data-idle-label={siteConfig.formspreeEndpoint ? "提交询盘" : "转到 WhatsApp 发送"}
+            data-loading-label="正在发送..."
+          >{siteConfig.formspreeEndpoint ? "提交询盘" : "转到 WhatsApp 发送"}</button>
+          <button class="button button-secondary" type="button" data-retry-button hidden>重试</button>
+        </div>
+        <div class="form-status" data-form-status role="status" aria-live="polite" hidden></div>
+        <p class="form-recovery" data-form-recovery hidden>
+          您也可以<a href={whatsappUrl("", "", "zh")} target="_blank" rel="noopener noreferrer" data-form-whatsapp>通过 WhatsApp 发送本次询价</a>。
+        </p>
+        {!siteConfig.formspreeEndpoint && <p class="form-note">系统会整理您填写的内容并打开 WhatsApp，确认后即可发送；当前表单内容会保留。</p>}
       </form>
     </div>
   </section>

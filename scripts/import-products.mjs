@@ -7,23 +7,26 @@ import sharp from "sharp";
 const projectRoot = path.resolve(import.meta.dirname, "..");
 const sourceDir = path.resolve(projectRoot, "..");
 
-async function firstExisting(paths) {
+async function findRequiredFile(label, configuredPath, candidates) {
+  const paths = configuredPath
+    ? [path.resolve(configuredPath)]
+    : candidates;
   for (const candidate of paths) {
     try {
       await fs.access(candidate);
       return candidate;
     } catch {}
   }
-  return paths[0];
+  throw new Error(`${label} not found. Checked:\n${paths.map((candidate) => `- ${candidate}`).join("\n")}`);
 }
 
-const workbookPath = process.env.LONFRO_WORKBOOK || await firstExisting([
-  path.join(sourceDir, "保温箱-2026年柬埔寨丽卡报价.xlsx"),
-  path.join(sourceDir, "参考", "保温箱-2026年柬埔寨丽卡报价.xlsx")
+const workbookPath = await findRequiredFile("Product workbook", process.env.LONFRO_WORKBOOK, [
+  path.join(sourceDir, "参考", "保温箱-2026年柬埔寨丽卡报价.xlsx"),
+  path.join(sourceDir, "保温箱-2026年柬埔寨丽卡报价.xlsx")
 ]);
-const logoSource = await firstExisting([
-  path.join(sourceDir, "微信图片_20260718194301_120_1.png"),
-  path.join(sourceDir, "参考", "微信图片_20260718194301_120_1.png")
+const logoSource = await findRequiredFile("Brand logo", process.env.LONFRO_LOGO, [
+  path.join(sourceDir, "参考", "微信图片_20260718194301_120_1.png"),
+  path.join(sourceDir, "微信图片_20260718194301_120_1.png")
 ]);
 const outputData = path.join(projectRoot, "src/data/products.json");
 const auditData = path.join(projectRoot, "data/product-source-audit.json");
@@ -32,12 +35,15 @@ const imageDir = path.join(projectRoot, "public/images/products");
 const brandDir = path.join(projectRoot, "public/images/brand");
 
 const seriesConfigs = [
-  { sheet: "Pro系列", key: "pro", name: "Pro Series", nameZh: "Pro 专业系列", model: "A", image: "B", material: "C", colors: "D", sizes: "E", net: "F", gross: "G", packing: "H", cartonQty: "I", price1000: "N", price500: "P" },
-  { sheet: "音响保温箱", key: "speaker", name: "Speaker Coolers", nameZh: "音响保温箱系列", model: "B", image: "C", material: "D", colors: "E", sizes: "F", net: "G", gross: "H", packing: "I", cartonQty: "J", price1000: "L", price500: "N" },
-  { sheet: "户外系列", key: "outdoor", name: "Outdoor Series", nameZh: "户外系列", model: "A", image: "B", material: "C", colors: "D", sizes: "E", net: "F", gross: "G", packing: "H", cartonQty: "I", price1000: "L", price500: "N" },
-  { sheet: "CC系列", key: "cc", name: "CC Series", nameZh: "CC 系列", model: "A", image: "B", material: "C", colors: "D", sizes: "E", net: "F", gross: "G", packing: "H", cartonQty: "I", price1000: "L", price500: "N" },
-  { sheet: "医药系列", key: "medical", name: "Medical Coolers", nameZh: "医药冷链系列", model: "A", image: "B", material: "C", colors: "D", sizes: "E", net: "F", gross: "G", packing: "H", cartonQty: "I", price1000: "L", price500: "N" }
+  { sheet: "Pro系列", key: "pro", name: "Pro Series", nameZh: "Pro 专业系列", model: "A", image: "B", material: "C", colors: "D", sizes: "E", net: "F", gross: "G", packing: "H", cartonQty: "I", price1000Rmb: "K", price1000: "N", price500Rmb: "O", price500: "P" },
+  { sheet: "音响保温箱", key: "speaker", name: "Speaker Coolers", nameZh: "音响保温箱系列", model: "B", image: "C", material: "D", colors: "E", sizes: "F", net: "G", gross: "H", packing: "I", cartonQty: "J", price1000Rmb: "K", price1000: "L", price500Rmb: "M", price500: "N" },
+  { sheet: "户外系列", key: "outdoor", name: "Outdoor Series", nameZh: "户外系列", model: "A", image: "B", material: "C", colors: "D", sizes: "E", net: "F", gross: "G", packing: "H", cartonQty: "I", price1000Rmb: "K", price1000: "L", price500Rmb: "M", price500: "N" },
+  { sheet: "CC系列", key: "cc", name: "CC Series", nameZh: "CC 系列", model: "A", image: "B", material: "C", colors: "D", sizes: "E", net: "F", gross: "G", packing: "H", cartonQty: "I", price1000Rmb: "K", price1000: "L", price500Rmb: "M", price500: "N" },
+  { sheet: "医药系列", key: "medical", name: "Medical Coolers", nameZh: "医药冷链系列", model: "A", image: "B", material: "C", colors: "D", sizes: "E", net: "F", gross: "G", packing: "H", cartonQty: "I", price1000Rmb: "K", price1000: "L", price500Rmb: "M", price500: "N" }
 ];
+
+const exchangeRate = 6.78;
+const priceTolerance = 0.02;
 
 const colorTerms = [
   ["白灰色", "White / Gray"], ["白灰", "White / Gray"], ["绿黑", "Green / Black"], ["白黑", "White / Black"], ["白蓝", "White / Blue"],
@@ -65,6 +71,11 @@ function clean(value) {
 function price(value) {
   const number = Number(value);
   return Number.isFinite(number) && number > 0 ? Math.round(number * 100) / 100 : null;
+}
+
+function positiveNumber(value) {
+  const number = Number(value);
+  return Number.isFinite(number) && number > 0 ? number : null;
 }
 
 function translateProductName(raw) {
@@ -248,7 +259,45 @@ await fs.mkdir(path.dirname(outputData), { recursive: true });
 await fs.mkdir(path.dirname(auditData), { recursive: true });
 
 const workbook = new ExcelJS.Workbook();
+console.log(`Product workbook: ${workbookPath}`);
+console.log(`Brand logo: ${logoSource}`);
 await workbook.xlsx.readFile(workbookPath);
+
+const priceValidationErrors = [];
+for (const config of seriesConfigs) {
+  const worksheet = workbook.getWorksheet(config.sheet);
+  if (!worksheet) throw new Error(`Missing required worksheet: ${config.sheet}`);
+
+  for (let rowNumber = 3; rowNumber <= worksheet.rowCount; rowNumber += 1) {
+    const rawModel = clean(cellValue(worksheet.getCell(`${config.model}${rowNumber}`)));
+    if (!rawModel) continue;
+
+    const rmbOver1000 = positiveNumber(cellValue(worksheet.getCell(`${config.price1000Rmb}${rowNumber}`)));
+    const usdOver1000 = positiveNumber(cellValue(worksheet.getCell(`${config.price1000}${rowNumber}`)));
+    const rmbUnder500 = positiveNumber(cellValue(worksheet.getCell(`${config.price500Rmb}${rowNumber}`)));
+    const usdUnder500 = positiveNumber(cellValue(worksheet.getCell(`${config.price500}${rowNumber}`)));
+
+    for (const [tier, rmb, usd] of [
+      ["1000+", rmbOver1000, usdOver1000],
+      ["up to 500", rmbUnder500, usdUnder500]
+    ]) {
+      if ((rmb === null) !== (usd === null)) {
+        priceValidationErrors.push(`${config.sheet} row ${rowNumber} (${rawModel}): ${tier} RMB/USD price pair is incomplete`);
+      } else if (rmb !== null && usd !== null && Math.abs(usd - (rmb / exchangeRate)) > priceTolerance) {
+        priceValidationErrors.push(`${config.sheet} row ${rowNumber} (${rawModel}): ${tier} USD ${usd.toFixed(4)} does not match RMB ${rmb.toFixed(4)} / ${exchangeRate}`);
+      }
+    }
+
+    if (usdOver1000 !== null && usdUnder500 !== null && usdOver1000 > usdUnder500 + priceTolerance) {
+      priceValidationErrors.push(`${config.sheet} row ${rowNumber} (${rawModel}): 1000+ USD ${usdOver1000.toFixed(2)} is higher than up-to-500 USD ${usdUnder500.toFixed(2)}`);
+    }
+  }
+}
+
+if (priceValidationErrors.length) {
+  throw new Error(`Price validation failed; website data was not generated:\n${priceValidationErrors.map((item) => `- ${item}`).join("\n")}`);
+}
+
 const registry = await readRegistry();
 const usedSlugs = new Set(Object.values(registry));
 const products = [];
@@ -347,7 +396,9 @@ for (const config of seriesConfigs) {
       rawColors,
       rawSizes,
       rawPacking,
+      rawRmbPriceUnder500: cellValue(worksheet.getCell(`${config.price500Rmb}${rowNumber}`)),
       rawPriceUnder500: cellValue(worksheet.getCell(`${config.price500}${rowNumber}`)),
+      rawRmbPriceOver1000: cellValue(worksheet.getCell(`${config.price1000Rmb}${rowNumber}`)),
       rawPriceOver1000: cellValue(worksheet.getCell(`${config.price1000}${rowNumber}`)),
       imageFound: imageId !== undefined
     });

@@ -1,3 +1,9 @@
+const configuredFormspreeEndpoint = import.meta.env.PUBLIC_FORMSPREE_ENDPOINT?.trim() ?? "";
+
+if (configuredFormspreeEndpoint && !/^https:\/\/formspree\.io\/f\/[A-Za-z0-9_-]+$/.test(configuredFormspreeEndpoint)) {
+  throw new Error("PUBLIC_FORMSPREE_ENDPOINT must be a valid https://formspree.io/f/... URL");
+}
+
 export const siteConfig = {
   brand: "LONFRO",
   tagline: "Get Fresh All the Way",
@@ -7,7 +13,7 @@ export const siteConfig = {
   email: "liangfen820817@gmail.com",
   whatsappDisplay: "+852 91242307",
   whatsappNumber: "85291242307",
-  formspreeEndpoint: "https://formspree.io/f/REPLACE_ME",
+  formspreeEndpoint: configuredFormspreeEndpoint,
   analytics: {
     googleAnalyticsId: "",
     tiktokPixelId: ""
