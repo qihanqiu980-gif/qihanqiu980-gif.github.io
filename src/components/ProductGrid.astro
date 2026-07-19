@@ -1,0 +1,68 @@
+---
+import ProductCard from "./ProductCard.astro";
+import type { Product } from "../lib/products";
+import { series, type Locale } from "../config";
+
+interface Props {
+  products: Product[];
+  initialSeries?: string;
+  showSeriesFilter?: boolean;
+  locale?: Locale;
+}
+
+const { products, initialSeries = "all", showSeriesFilter = true, locale = "en" } = Astro.props;
+const isZh = locale === "zh";
+const capacities = [...new Set(products.map((item) => item.capacityLiters).filter((item): item is number => item !== null))].sort((a, b) => a - b);
+---
+
+<section class="catalog" data-catalog data-initial-series={initialSeries} data-locale={locale}>
+  <div class="filter-panel">
+    <label class="field search-field">
+      <span>{isZh ? "搜索产品" : "Search products"}</span>
+      <input type="search" placeholder={isZh ? "输入型号、容量或产品名称" : "Model, capacity or product name"} data-filter-search />
+    </label>
+    {showSeriesFilter && (
+      <label class="field">
+        <span>{isZh ? "产品系列" : "Series"}</span>
+        <select data-filter-series>
+          <option value="all">{isZh ? "全部系列" : "All series"}</option>
+          {series.map((item) => <option value={item.key} selected={initialSeries === item.key}>{isZh ? item.nameZh : item.name}</option>)}
+        </select>
+      </label>
+    )}
+    <label class="field">
+      <span>{isZh ? "容量" : "Capacity"}</span>
+      <select data-filter-capacity>
+        <option value="all">{isZh ? "全部容量" : "All capacities"}</option>
+        <option value="compact">{isZh ? "12L 及以下" : "Up to 12L"}</option>
+        <option value="medium">{isZh ? "12.1L 至 30L" : "12.1L to 30L"}</option>
+        <option value="large">{isZh ? "30L 以上" : "Above 30L"}</option>
+        {capacities.slice(0, 0).map((capacity) => <option value={capacity}>{capacity}L</option>)}
+      </select>
+    </label>
+    <label class="field">
+      <span>{isZh ? "采购数量" : "Purchase quantity"}</span>
+      <select data-filter-quantity>
+        <option value="lowest">{isZh ? "显示最低阶梯价" : "Show lowest tier"}</option>
+        <option value="under500">{isZh ? "500 件及以下" : "Up to 500 pcs"}</option>
+        <option value="contact">501-999 {isZh ? "件" : "pcs"}</option>
+        <option value="over1000">1,000+ {isZh ? "件" : "pcs"}</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="catalog-meta">
+    <p><strong data-result-count>{products.length}</strong> {isZh ? "款产品" : "products"}</p>
+    <button class="text-button" type="button" data-filter-reset>{isZh ? "重置筛选" : "Reset filters"}</button>
+  </div>
+
+  <div class="product-grid" data-product-grid>
+    {products.map((product, index) => <ProductCard product={product} priority={index < 4} locale={locale} />)}
+  </div>
+
+  <div class="empty-state" data-empty-state hidden>
+    <h2>{isZh ? "没有找到匹配产品。" : "No products match these filters."}</h2>
+    <p>{isZh ? "请重置筛选，或告诉我们所需容量和采购数量。" : "Reset the filters or send us your target capacity and purchase quantity."}</p>
+    <button class="button button-primary" type="button" data-filter-reset>{isZh ? "重置筛选" : "Reset filters"}</button>
+  </div>
+</section>

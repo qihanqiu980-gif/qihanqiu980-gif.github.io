@@ -1,0 +1,39 @@
+---
+import type { Product } from "../lib/products";
+import { formatPrice, productCopy } from "../lib/products";
+import { localePath, type Locale } from "../config";
+
+interface Props { product: Product; priority?: boolean; locale?: Locale; }
+const { product, priority = false, locale = "en" } = Astro.props;
+const isZh = locale === "zh";
+const copy = productCopy(product, locale);
+const productPath = localePath(`/products/${product.slug}/`, locale);
+---
+
+<article
+  class="product-card"
+  data-product-card
+  data-series={product.series}
+  data-title={`${copy.title} ${copy.model} ${product.title} ${product.model}`.toLowerCase()}
+  data-capacity={product.capacityLiters ?? ""}
+  data-price-under={product.pricing.under500 ?? ""}
+  data-price-over={product.pricing.over1000 ?? ""}
+>
+  <a class="product-image" href={productPath} aria-label={isZh ? `查看${copy.title}` : `View ${copy.title}`}>
+    <img src={product.image} alt={copy.title} width="900" height="900" loading={priority ? "eager" : "lazy"} />
+  </a>
+  <div class="product-card-body">
+    <p class="product-series">{copy.seriesName}</p>
+    <h3><a href={productPath}>{copy.title}</a></h3>
+    <p class="product-model">{isZh ? "型号" : "Model"}: {copy.model}</p>
+    <div class="product-card-bottom">
+      <div>
+        <span class="price-label">{isZh ? "批发参考价" : "Reference wholesale"}</span>
+        <strong class="card-price" data-card-price>
+          {product.pricing.lowest === null ? formatPrice(null, locale) : `${isZh ? "低至" : "From"} ${formatPrice(product.pricing.lowest, locale)}`}
+        </strong>
+      </div>
+      <a class="text-link" href={productPath}>{isZh ? "查看产品" : "View product"}</a>
+    </div>
+  </div>
+</article>

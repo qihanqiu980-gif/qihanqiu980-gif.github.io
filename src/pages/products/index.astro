@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ProductGrid from "../../components/ProductGrid.astro";
+import { allProducts } from "../../lib/products";
+---
+
+<BaseLayout title="All Cooler Products | LONFRO" description="Browse all LONFRO cooler products with real specifications and public wholesale reference pricing.">
+  <section class="page-hero">
+    <div class="container narrow-heading">
+      <p class="eyebrow">Product catalog</p>
+      <h1>Find the right cooler format.</h1>
+      <p>Search 62 models across five series. Filter by capacity and purchase quantity, then open a product for full tier pricing.</p>
+    </div>
+  </section>
+  <div class="container catalog-wrap">
+    <ProductGrid products={allProducts} />
+  </div>
+</BaseLayout>

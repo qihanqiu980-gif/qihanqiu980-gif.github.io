@@ -1,0 +1,47 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { allProducts, whatsappUrl } from "../lib/products";
+const visual = allProducts.find((product) => product.series === "pro" && product.capacityLiters === 50) || allProducts[0];
+---
+
+<BaseLayout title="OEM and ODM Cooler Manufacturing | LONFRO" description="Develop private-label and customized cooler programs with LONFRO manufacturing support.">
+  <section class="page-hero oem-page-hero">
+    <div class="container series-hero-grid">
+      <div class="narrow-heading">
+        <p class="eyebrow">OEM / ODM manufacturing</p>
+        <h1>Build a cooler program around your market.</h1>
+        <p>From color and branding changes to new structures and tooling, our team supports qualified product development programs.</p>
+        <a class="button button-primary" href="/contact/">Start a Project Inquiry</a>
+      </div>
+      <img src={visual.image} alt={visual.title} width="900" height="900" />
+    </div>
+  </section>
+
+  <section class="section process-section">
+    <div class="container">
+      <div class="section-heading"><h2>A clear path from brief to shipment</h2><p>Each project is reviewed against order volume, development scope, tooling needs, target market and delivery schedule.</p></div>
+      <div class="process-grid">
+        <article><h3>Define the brief</h3><p>Target capacity, use case, market, price position and expected purchase volume.</p></article>
+        <article><h3>Confirm the solution</h3><p>Select an existing platform or evaluate structural development and tooling.</p></article>
+        <article><h3>Validate samples</h3><p>Review appearance, branding, packaging, performance and compliance requirements.</p></article>
+        <article><h3>Prepare production</h3><p>Confirm formal quotation, payment terms, lead time, inspection and shipping plan.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section customization-section">
+    <div class="container customization-grid">
+      <div><h2>Common customization areas</h2><p>Final availability depends on model, order quantity and technical review.</p></div>
+      <div class="customization-list">
+        <span>Color matching</span><span>Logo application</span><span>Retail packaging</span><span>Carton markings</span><span>Accessory configuration</span><span>Structure development</span><span>Tooling support</span><span>Inspection planning</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section final-cta">
+    <div class="container final-cta-inner">
+      <div><h2>Have a product brief ready?</h2><p>Send reference images, target capacity, quantity and required market.</p></div>
+      <div class="hero-actions"><a class="button button-primary" href={whatsappUrl()} data-track="whatsapp_click">Chat on WhatsApp</a><a class="button button-secondary" href="/contact/">Request a Quote</a></div>
+    </div>
+  </section>
+</BaseLayout>

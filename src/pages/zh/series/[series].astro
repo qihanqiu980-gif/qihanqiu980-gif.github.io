@@ -1,0 +1,29 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import ProductGrid from "../../../components/ProductGrid.astro";
+import { allProducts } from "../../../lib/products";
+import { series as seriesList } from "../../../config";
+
+export function getStaticPaths() {
+  return seriesList.map((item) => ({ params: { series: item.key }, props: { item } }));
+}
+
+const { item } = Astro.props;
+const products = allProducts.filter((product) => product.series === item.key);
+---
+
+<BaseLayout locale="zh" title={`${item.nameZh} | LONFRO`} description={item.blurbZh}>
+  <section class="page-hero series-page-hero">
+    <div class="container series-hero-grid">
+      <div class="narrow-heading">
+        <p class="eyebrow">{products.length} 款可选型号</p>
+        <h1>{item.nameZh}</h1>
+        <p>{item.blurbZh}</p>
+      </div>
+      <img src={products.find((product) => product.featured)?.image || products[0].image} alt={item.nameZh} width="900" height="900" />
+    </div>
+  </section>
+  <div class="container catalog-wrap">
+    <ProductGrid products={products} initialSeries={item.key} showSeriesFilter={false} locale="zh" />
+  </div>
+</BaseLayout>

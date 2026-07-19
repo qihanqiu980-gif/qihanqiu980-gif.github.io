@@ -1,0 +1,29 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ProductGrid from "../../components/ProductGrid.astro";
+import { allProducts } from "../../lib/products";
+import { series as seriesList } from "../../config";
+
+export function getStaticPaths() {
+  return seriesList.map((item) => ({ params: { series: item.key }, props: { item } }));
+}
+
+const { item } = Astro.props;
+const products = allProducts.filter((product) => product.series === item.key);
+---
+
+<BaseLayout title={`${item.name} | LONFRO`} description={item.blurb}>
+  <section class="page-hero series-page-hero">
+    <div class="container series-hero-grid">
+      <div class="narrow-heading">
+        <p class="eyebrow">{products.length} available models</p>
+        <h1>{item.name}</h1>
+        <p>{item.blurb}</p>
+      </div>
+      <img src={products.find((product) => product.featured)?.image || products[0].image} alt={item.name} width="900" height="900" />
+    </div>
+  </section>
+  <div class="container catalog-wrap">
+    <ProductGrid products={products} initialSeries={item.key} showSeriesFilter={false} />
+  </div>
+</BaseLayout>

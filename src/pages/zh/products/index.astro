@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import ProductGrid from "../../../components/ProductGrid.astro";
+import { allProducts } from "../../../lib/products";
+---
+
+<BaseLayout locale="zh" title="全部保温箱产品 | LONFRO" description="浏览 LONFRO 全部保温箱产品，查看真实规格与公开批发参考价。">
+  <section class="page-hero">
+    <div class="container narrow-heading">
+      <p class="eyebrow">产品目录</p>
+      <h1>找到适合您项目的保温箱。</h1>
+      <p>在五大系列的 62 款产品中搜索，可按容量和采购数量筛选，进入产品页查看完整阶梯价。</p>
+    </div>
+  </section>
+  <div class="container catalog-wrap">
+    <ProductGrid products={allProducts} locale="zh" />
+  </div>
+</BaseLayout>

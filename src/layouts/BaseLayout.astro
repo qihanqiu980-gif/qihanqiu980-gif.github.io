@@ -1,0 +1,55 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import CookieBanner from "../components/CookieBanner.astro";
+import "../styles/global.css";
+import { localePath, siteConfig, type Locale } from "../config";
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  locale?: Locale;
+}
+
+const {
+  title = "LONFRO | Global Cooler Manufacturer",
+  description = "Wholesale cooler boxes and OEM/ODM manufacturing for global distributors, procurement teams and private-label programs.",
+  image = "/images/brand/lonfro-logo.webp",
+  locale = "en"
+} = Astro.props;
+const canonical = Astro.url.href;
+const englishPath = localePath(Astro.url.pathname, "en");
+const chinesePath = localePath(Astro.url.pathname, "zh");
+---
+
+<!doctype html>
+<html lang={locale === "zh" ? "zh-CN" : "en"}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(image, Astro.url).href} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="en" href={new URL(englishPath, Astro.url).href} />
+    <link rel="alternate" hreflang="zh-CN" href={new URL(chinesePath, Astro.url).href} />
+    <link rel="alternate" hreflang="x-default" href={new URL(englishPath, Astro.url).href} />
+    <link rel="icon" href="/images/brand/lonfro-logo.webp" />
+    <title>{title}</title>
+  </head>
+  <body data-ga-id={siteConfig.analytics.googleAnalyticsId} data-tiktok-id={siteConfig.analytics.tiktokPixelId} data-locale={locale}>
+    <a class="skip-link" href="#main-content">{locale === "zh" ? "跳到主要内容" : "Skip to content"}</a>
+    <Header locale={locale} />
+    <main id="main-content">
+      <slot />
+    </main>
+    <Footer locale={locale} />
+    <CookieBanner locale={locale} />
+    <script is:inline src="/scripts/site.js"></script>
+  </body>
+</html>

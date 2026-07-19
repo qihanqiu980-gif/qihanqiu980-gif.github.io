@@ -1,0 +1,45 @@
+---
+import { localePath, siteConfig, series, type Locale } from "../config";
+import { whatsappUrl } from "../lib/products";
+
+interface Props { locale?: Locale; }
+const { locale = "en" } = Astro.props;
+const isZh = locale === "zh";
+---
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="/images/brand/lonfro-logo.webp" width="230" height="70" alt="LONFRO" />
+      <p>{isZh ? siteConfig.taglineZh : siteConfig.tagline}</p>
+      <p class="footer-company">{isZh ? siteConfig.companyZh : siteConfig.company}</p>
+    </div>
+    <div>
+      <h2>{isZh ? "产品系列" : "Product Series"}</h2>
+      <ul>
+        {series.map((item) => <li><a href={localePath(`/series/${item.key}/`, locale)}>{isZh ? item.nameZh : item.name}</a></li>)}
+      </ul>
+    </div>
+    <div>
+      <h2>{isZh ? "公司与服务" : "Company"}</h2>
+      <ul>
+        <li><a href={localePath("/about/", locale)}>{isZh ? "关于我们" : "About Us"}</a></li>
+        <li><a href={localePath("/oem-odm/", locale)}>OEM / ODM</a></li>
+        <li><a href={localePath("/contact/", locale)}>{isZh ? "申请报价" : "Request a Quote"}</a></li>
+        <li><a href={whatsappUrl("", "", locale)} data-track="whatsapp_click">WhatsApp</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>{isZh ? "网站政策" : "Policies"}</h2>
+      <ul>
+        <li><a href={localePath("/privacy/", locale)}>{isZh ? "隐私政策" : "Privacy Policy"}</a></li>
+        <li><a href={localePath("/terms/", locale)}>{isZh ? "使用条款" : "Terms of Use"}</a></li>
+        <li><a href={localePath("/cookies/", locale)}>{isZh ? "Cookie 说明" : "Cookie Notice"}</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© {new Date().getFullYear()} LONFRO. {isZh ? "保留所有权利。" : "All rights reserved."}</span>
+    <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
+  </div>
+</footer>

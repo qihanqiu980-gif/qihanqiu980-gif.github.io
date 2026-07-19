@@ -1,0 +1,18 @@
+{
+  "name": "lonfro-global-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "import:products": "node scripts/import-products.mjs",
+    "build": "npm run import:products && astro build",
+    "verify": "node scripts/verify-build.mjs",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^5.12.0",
+    "exceljs": "^4.4.0",
+    "sharp": "^0.34.3"
+  }
+}

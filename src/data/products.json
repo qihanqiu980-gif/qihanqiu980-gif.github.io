@@ -1,0 +1,2296 @@
+[
+  {
+    "id": "445fbd2727deaefb",
+    "slug": "pro-26l-cooler",
+    "title": "26L Cooler",
+    "model": "26L Cooler",
+    "series": "pro",
+    "seriesName": "Pro Series",
+    "image": "/images/products/pro-26l-cooler.webp",
+    "capacityLiters": 26,
+    "colors": "Green / Black, White / Black, White / Blue",
+    "material": "Shell and lid: PE; Inner liner: PP; Handle: 304 stainless steel; Insulation: PU foam; (6-sided)",
+    "sizes": "External: 550 x 353 x 387; Internal: 416 x 212 x 290",
+    "netWeightKg": 4.5,
+    "grossWeightKg": 6.15,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "26L 保温箱",
+      "model": "26L 保温箱",
+      "seriesName": "Pro 专业系列",
+      "colors": "绿黑、白黑、白蓝",
+      "material": "外壳、上盖：PE；内胆：PP；提手：不锈钢304；隔层：PU发泡；（6面）",
+      "sizes": "外尺寸：550×353×387；内尺寸：416×212×290",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 27.22,
+      "contactRange": "501-999 pcs",
+      "over1000": 23.82,
+      "lowest": 23.82
+    },
+    "source": {
+      "sheet": "Pro系列",
+      "row": 3
+    },
+    "featured": false
+  },
+  {
+    "id": "cdc0bf17a62cad42",
+    "slug": "pro-32l-with-table-and-chairs-2-chairs",
+    "title": "32L with Table and Chairs (2 Chairs)",
+    "model": "32L with Table and Chairs (2 Chairs)",
+    "series": "pro",
+    "seriesName": "Pro Series",
+    "image": "/images/products/pro-32l-with-table-and-chairs-2-chairs.webp",
+    "capacityLiters": 32,
+    "colors": "Black / White, Green / White, Green / Gray, Blue / Gray",
+    "material": "Shell and lid: PE; Handle: PP; Insulation: PU foam; (5-sided)",
+    "sizes": "External: 545 x 360 x 397; Internal: 400 x 215 x 335; Unfolded: 1054 x 490 x 420; Chair: 220 x 240 x 260",
+    "netWeightKg": 7.05,
+    "grossWeightKg": 8.2,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "32L 带桌椅 （2个椅子）",
+      "model": "32L 带桌椅 （2个椅子）",
+      "seriesName": "Pro 专业系列",
+      "colors": "黑白色、绿白色、绿灰色、蓝灰色",
+      "material": "外壳、上盖：PE；提手：PP；隔层：PU发泡；（5面）",
+      "sizes": "外尺寸：545×360×397；内尺寸：400×215×335；展开尺寸：1054×490×420；椅子尺寸：220×240×260",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 47.96,
+      "contactRange": "501-999 pcs",
+      "over1000": 41.96,
+      "lowest": 41.96
+    },
+    "source": {
+      "sheet": "Pro系列",
+      "row": 4
+    },
+    "featured": false
+  },
+  {
+    "id": "b97313a9db42f0af",
+    "slug": "pro-35l-wheeled-handle-cooler",
+    "title": "35L Wheeled Handle Cooler",
+    "model": "35L Wheeled Handle Cooler",
+    "series": "pro",
+    "seriesName": "Pro Series",
+    "image": "/images/products/pro-35l-wheeled-handle-cooler.webp",
+    "capacityLiters": 35,
+    "colors": "Khaki Yellow",
+    "material": "Shell and lid: PE; Handle: PP; Insulation: PU foam; (6-sided)",
+    "sizes": "External: 555 x 335 x 335; Internal: 450 x 248 x 260",
+    "netWeightKg": 4,
+    "grossWeightKg": 4.8,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "35L 拉杆款 保温箱",
+      "model": "35L 拉杆款 保温箱",
+      "seriesName": "Pro 专业系列",
+      "colors": "咖黄色",
+      "material": "外壳、上盖：PE；提手：PP；隔层：PU发泡；（6面）",
+      "sizes": "外尺寸：555×335×335；内尺寸：450×248×260",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 29.56,
+      "contactRange": "501-999 pcs",
+      "over1000": 25.87,
+      "lowest": 25.87
+    },
+    "source": {
+      "sheet": "Pro系列",
+      "row": 5
+    },
+    "featured": false
+  },
+  {
+    "id": "cc59727d12240096",
+    "slug": "pro-45l-cooler-non-wheeled-latch-version",
+    "title": "45L Cooler Non-Wheeled Latch Version",
+    "model": "45L Cooler Non-Wheeled Latch Version",
+    "series": "pro",
+    "seriesName": "Pro Series",
+    "image": "/images/products/pro-45l-cooler-non-wheeled-latch-version.webp",
+    "capacityLiters": 45,
+    "colors": "Blue, White, Green",
+    "material": "Lid: PE; Shell and handle: PP; Insulation: PU foam; (6-sided)",
+    "sizes": "External: 578 x 380 x 410; Internal: 445 x 290 x 340",
+    "netWeightKg": 5.3,
+    "grossWeightKg": 7.6,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "45L 保温箱 无轮有扣版",
+      "model": "45L 保温箱 无轮有扣版",
+      "seriesName": "Pro 专业系列",
+      "colors": "蓝色、白色、绿色",
+      "material": "上盖：PE；外壳、提手：PP；隔层：PU发泡；（6面）",
+      "sizes": "外尺寸：578×380×410；内尺寸：445×290×340",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 30.76,
+      "contactRange": "501-999 pcs",
+      "over1000": 26.92,
+      "lowest": 26.92
+    },
+    "source": {
+      "sheet": "Pro系列",
+      "row": 6
+    },
+    "featured": false
+  },
+  {
+    "id": "5d479eff3fa5e9bc",
+    "slug": "pro-45l-cooler-wheeled-latch-version",
+    "title": "45L Cooler Wheeled Latch Version",
+    "model": "45L Cooler Wheeled Latch Version",
+    "series": "pro",
+    "seriesName": "Pro Series",
+    "image": "/images/products/pro-45l-cooler-wheeled-latch-version.webp",
+    "capacityLiters": 45,
+    "colors": "Blue, White, Green",
+    "material": "Lid: PE; Shell and handle: PP; Insulation: PU foam; (6-sided)",
+    "sizes": "External: 578 x 380 x 410; Internal: 445 x 290 x 340",
+    "netWeightKg": 5.67,
+    "grossWeightKg": 7.9,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "45L 保温箱 有轮有扣版",
+      "model": "45L 保温箱 有轮有扣版",
+      "seriesName": "Pro 专业系列",
+      "colors": "蓝色、白色、绿色",
+      "material": "上盖：PE；外壳、提手：PP；隔层：PU发泡；（6面）",
+      "sizes": "外尺寸：578×380×410；内尺寸：445×290×340",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 37.13,
+      "contactRange": "501-999 pcs",
+      "over1000": 32.49,
+      "lowest": 32.49
+    },
+    "source": {
+      "sheet": "Pro系列",
+      "row": 7
+    },
+    "featured": true
+  },
+  {
+    "id": "6034a2cac99dd414",
+    "slug": "pro-50l-cooler-wheeled-latch-version",
+    "title": "50L Cooler Wheeled Latch Version",
+    "model": "50L Cooler Wheeled Latch Version",
+    "series": "pro",
+    "seriesName": "Pro Series",
+    "image": "/images/products/pro-50l-cooler-wheeled-latch-version.webp",
+    "capacityLiters": 50,
+    "colors": "Blue, White, Green",
+    "material": "Lid: PE; Shell and handle: PP; Insulation: PU foam; (6-sided)",
+    "sizes": "External: 648 x 420 x 405; Internal: 510 x 306 x 325",
+    "netWeightKg": 6.9,
+    "grossWeightKg": 9.4,
+    "packing": "PE bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "50L 保温箱 有轮有扣版",
+      "model": "50L 保温箱 有轮有扣版",
+      "seriesName": "Pro 专业系列",
+      "colors": "蓝色、白色、绿色",
+      "material": "上盖：PE；外壳、提手：PP；隔层：PU发泡；（6面）",
+      "sizes": "外尺寸：648×420×405；内尺寸：510×306×325",
+      "packing": "PE袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 46.36,
+      "contactRange": "501-999 pcs",
+      "over1000": 40.56,
+      "lowest": 40.56
+    },
+    "source": {
+      "sheet": "Pro系列",
+      "row": 8
+    },
+    "featured": false
+  },
+  {
+    "id": "72d6c3456008f8e9",
+    "slug": "pro-50l-cooler",
+    "title": "50L Cooler",
+    "model": "50L Cooler",
+    "series": "pro",
+    "seriesName": "Pro Series",
+    "image": "/images/products/pro-50l-cooler.webp",
+    "capacityLiters": 50,
+    "colors": "BlueWhite, Gray / Taupe",
+    "material": "Shell and lid: PE; Handle: PP; Insulation: PU foam; (6-sided)",
+    "sizes": "External: 605 x 400 x 390; Internal: 523 x 300 x 310",
+    "netWeightKg": 6,
+    "grossWeightKg": 7.1,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "50L 保温箱",
+      "model": "50L 保温箱",
+      "seriesName": "Pro 专业系列",
+      "colors": "蓝白、灰咖",
+      "material": "外壳、上盖：PE；提手：PP；隔层：PU发泡；（6面）",
+      "sizes": "外尺寸：605×400×390；内尺寸：523×300×310",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 32.66,
+      "contactRange": "501-999 pcs",
+      "over1000": 28.58,
+      "lowest": 28.58
+    },
+    "source": {
+      "sheet": "Pro系列",
+      "row": 9
+    },
+    "featured": false
+  },
+  {
+    "id": "4853cdb92a39a39c",
+    "slug": "pro-65l-cooler",
+    "title": "65L Cooler",
+    "model": "65L Cooler",
+    "series": "pro",
+    "seriesName": "Pro Series",
+    "image": "/images/products/pro-65l-cooler.webp",
+    "capacityLiters": 65,
+    "colors": "Red, Blue",
+    "material": "Shell and lid: PE; Handle: PP; Insulation: PU foam; (6-sided)",
+    "sizes": "External: 635 x 485 x 372; Internal: 535 x 400 x 310",
+    "netWeightKg": 6.8,
+    "grossWeightKg": 7.85,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "65L 保温箱",
+      "model": "65L 保温箱",
+      "seriesName": "Pro 专业系列",
+      "colors": "红、蓝",
+      "material": "外壳、上盖：PE；提手：PP；隔层：PU发泡；（6面）",
+      "sizes": "外尺寸：635×485×372；内尺寸：535×400×310",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 32.81,
+      "contactRange": "501-999 pcs",
+      "over1000": 28.71,
+      "lowest": 28.71
+    },
+    "source": {
+      "sheet": "Pro系列",
+      "row": 10
+    },
+    "featured": false
+  },
+  {
+    "id": "ad6ef360a991991f",
+    "slug": "pro-70l-cooler-non-wheeled-latch-version",
+    "title": "70L Cooler Non-Wheeled Latch Version",
+    "model": "70L Cooler Non-Wheeled Latch Version",
+    "series": "pro",
+    "seriesName": "Pro Series",
+    "image": "/images/products/pro-70l-cooler-non-wheeled-latch-version.webp",
+    "capacityLiters": 70,
+    "colors": "White, Green, Blue",
+    "material": "Shell and lid: PE; Handle, Inner liner: PP; Insulation: PU foam(6-sided)",
+    "sizes": "External: 740 x 442 x 428; Internal: 580 x 325 x 345",
+    "netWeightKg": 8.2,
+    "grossWeightKg": 11.2,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "70L 保温箱 无轮有扣版",
+      "model": "70L 保温箱 无轮有扣版",
+      "seriesName": "Pro 专业系列",
+      "colors": "白色、绿色、蓝色",
+      "material": "外壳、上盖：PE；提手，内胆：PP；隔层：PU发泡（6面）",
+      "sizes": "外尺寸：740×442×428；内尺寸：580×325×345",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 42.41,
+      "contactRange": "501-999 pcs",
+      "over1000": 37.11,
+      "lowest": 37.11
+    },
+    "source": {
+      "sheet": "Pro系列",
+      "row": 11
+    },
+    "featured": false
+  },
+  {
+    "id": "3da4699a19d2b57b",
+    "slug": "pro-70l-cooler-wheeled-latch-version",
+    "title": "70L Cooler Wheeled Latch Version",
+    "model": "70L Cooler Wheeled Latch Version",
+    "series": "pro",
+    "seriesName": "Pro Series",
+    "image": "/images/products/pro-70l-cooler-wheeled-latch-version.webp",
+    "capacityLiters": 70,
+    "colors": "White, Green, Blue",
+    "material": "Shell and lid: PE; Handle, Inner liner: PP; Insulation: PU foam(6-sided)",
+    "sizes": "External: 740 x 442 x 428; Internal: 580 x 325 x 345",
+    "netWeightKg": 8.2,
+    "grossWeightKg": 11.2,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "70L 保温箱 有轮有扣版",
+      "model": "70L 保温箱 有轮有扣版",
+      "seriesName": "Pro 专业系列",
+      "colors": "白色、绿色、蓝色",
+      "material": "外壳、上盖：PE；提手，内胆：PP；隔层：PU发泡（6面）",
+      "sizes": "外尺寸：740×442×428；内尺寸：580×325×345",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 49.18,
+      "contactRange": "501-999 pcs",
+      "over1000": 43.03,
+      "lowest": 43.03
+    },
+    "source": {
+      "sheet": "Pro系列",
+      "row": 12
+    },
+    "featured": false
+  },
+  {
+    "id": "d9a7417dac7f199f",
+    "slug": "pro-85l-cooler",
+    "title": "85L Cooler",
+    "model": "85L Cooler",
+    "series": "pro",
+    "seriesName": "Pro Series",
+    "image": "/images/products/pro-85l-cooler.webp",
+    "capacityLiters": 85,
+    "colors": "Blue",
+    "material": "Shell and lid: PE; Handle: PP; Insulation: PU foam; (6-sided)",
+    "sizes": "External: 645 x 530 x 386; Internal: 545 x 435 x 318",
+    "netWeightKg": 7.5,
+    "grossWeightKg": 8.6,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "85L 保温箱",
+      "model": "85L 保温箱",
+      "seriesName": "Pro 专业系列",
+      "colors": "蓝色",
+      "material": "外壳、上盖：PE；提手：PP；隔层：PU发泡；（6面）",
+      "sizes": "外尺寸：645×530×386；内尺寸：545×435×318",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 33.52,
+      "contactRange": "501-999 pcs",
+      "over1000": 29.33,
+      "lowest": 29.33
+    },
+    "source": {
+      "sheet": "Pro系列",
+      "row": 13
+    },
+    "featured": false
+  },
+  {
+    "id": "58aa0acf73e9f889",
+    "slug": "pro-120l-cooler-non-wheeled-latch-version",
+    "title": "120L Cooler Non-Wheeled Latch Version",
+    "model": "120L Cooler Non-Wheeled Latch Version",
+    "series": "pro",
+    "seriesName": "Pro Series",
+    "image": "/images/products/pro-120l-cooler-non-wheeled-latch-version.webp",
+    "capacityLiters": 120,
+    "colors": "White",
+    "material": "Shell and lid: PE; Handle and Inner liner: PP; Insulation: PU foam (6-sided)",
+    "sizes": "External: 940 x 550 x 500; Internal: 792 x 400 x 400",
+    "netWeightKg": 12,
+    "grossWeightKg": 14.5,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "120L 保温箱 无轮有扣版",
+      "model": "120L 保温箱 无轮有扣版",
+      "seriesName": "Pro 专业系列",
+      "colors": "白色",
+      "material": "外壳、上盖：PE；提手、内胆：PP；隔层：PU（6面）",
+      "sizes": "外尺寸：940×550×500；内尺寸：792×400×400",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 74.13,
+      "contactRange": "501-999 pcs",
+      "over1000": 64.86,
+      "lowest": 64.86
+    },
+    "source": {
+      "sheet": "Pro系列",
+      "row": 14
+    },
+    "featured": false
+  },
+  {
+    "id": "fd60a0c82e15f6b1",
+    "slug": "pro-120l-cooler-wheeled-latch-version",
+    "title": "120L Cooler Wheeled Latch Version",
+    "model": "120L Cooler Wheeled Latch Version",
+    "series": "pro",
+    "seriesName": "Pro Series",
+    "image": "/images/products/pro-120l-cooler-wheeled-latch-version.webp",
+    "capacityLiters": 120,
+    "colors": "White",
+    "material": "Shell and lid: PE; Handle and Inner liner: PP; Insulation: PU foam (6-sided)",
+    "sizes": "External: 940 x 550 x 500; Internal: 792 x 400 x 400",
+    "netWeightKg": 13,
+    "grossWeightKg": 15.6,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "120L 保温箱 有轮有扣版",
+      "model": "120L 保温箱 有轮有扣版",
+      "seriesName": "Pro 专业系列",
+      "colors": "白色",
+      "material": "外壳、上盖：PE；提手、内胆：PP；隔层：PU（6面）",
+      "sizes": "外尺寸：940×550×500；内尺寸：792×400×400",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 80.59,
+      "contactRange": "501-999 pcs",
+      "over1000": 70.52,
+      "lowest": 70.52
+    },
+    "source": {
+      "sheet": "Pro系列",
+      "row": 15
+    },
+    "featured": false
+  },
+  {
+    "id": "7b3f114977973c54",
+    "slug": "speaker-13lspeaker-cooler",
+    "title": "13L Speaker Cooler",
+    "model": "13L Speaker Cooler",
+    "series": "speaker",
+    "seriesName": "Speaker Coolers",
+    "image": "/images/products/speaker-13lspeaker-cooler.webp",
+    "capacityLiters": 13,
+    "colors": "White / Gray, Blue, White / Black",
+    "material": "Lid: PE; Shell, handle and inner liner: PP; Insulation: PU foam(5-sided); Battery: 3.7V/1500MA lithium battery; Battery life: 3~6hours",
+    "sizes": "External: 350 x 250 x 310; Internal: 280 x 200 x 250",
+    "netWeightKg": 2,
+    "grossWeightKg": 2.41,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "13L音响 保温箱",
+      "model": "13L音响 保温箱",
+      "seriesName": "音响保温箱系列",
+      "colors": "白灰、蓝色、白黑",
+      "material": "上盖：PE；外壳、提手、内胆：PP；隔层：PU发泡（5面）；电池规格： 3.7V/1500MA 锂电池；续航时间：3~6小时",
+      "sizes": "外尺寸：350×250×310；内尺寸：280×200×250",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 16.6,
+      "contactRange": "501-999 pcs",
+      "over1000": 14.53,
+      "lowest": 14.53
+    },
+    "source": {
+      "sheet": "音响保温箱",
+      "row": 3
+    },
+    "featured": false
+  },
+  {
+    "id": "8e4ae6bd9b191d6f",
+    "slug": "speaker-15lspeaker-cooler",
+    "title": "15L Speaker Cooler",
+    "model": "15L Speaker Cooler",
+    "series": "speaker",
+    "seriesName": "Speaker Coolers",
+    "image": "/images/products/speaker-15lspeaker-cooler.webp",
+    "capacityLiters": 15,
+    "colors": "Red, Black, Green",
+    "material": "Shell, lid and handle: PE; Inner liner: PP; Insulation: PU foam (5-sided); Power: 2*4W; Battery: 3.7V/1500MA lithium battery; Battery life: 3~6hours",
+    "sizes": "External: 370 x 268 x 360; Internal: 320 x 218 x 225",
+    "netWeightKg": 3.8,
+    "grossWeightKg": 4.8,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "15L音响 保温箱",
+      "model": "15L音响 保温箱",
+      "seriesName": "音响保温箱系列",
+      "colors": "红色、黑色、绿色",
+      "material": "外壳、上盖、提手：PE；内胆：PP；隔层：PU（5面）；功率： 2*4W；电池规格： 3.7V/1500MA 锂电池；续航时间：3~6小时",
+      "sizes": "外尺寸：370×268×360；内尺寸：320×218×225",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 33.46,
+      "contactRange": "501-999 pcs",
+      "over1000": 29.28,
+      "lowest": 29.28
+    },
+    "source": {
+      "sheet": "音响保温箱",
+      "row": 4
+    },
+    "featured": false
+  },
+  {
+    "id": "fb3e503903c0df4a",
+    "slug": "speaker-21lspeaker-cooler",
+    "title": "21L Speaker Cooler",
+    "model": "21L Speaker Cooler",
+    "series": "speaker",
+    "seriesName": "Speaker Coolers",
+    "image": "/images/products/speaker-21lspeaker-cooler.webp",
+    "capacityLiters": 21,
+    "colors": "Black, Green, White",
+    "material": "Shell and lid: PE; Handle: PP; Insulation: PU foam(6-sided); Power: 2*4W; Battery: 3.7V/1500MA lithium battery; Battery life: 3~6hours",
+    "sizes": "External: 460 x 320 x 310; Internal: 360 x 250 x 230",
+    "netWeightKg": 4,
+    "grossWeightKg": 4.6,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "21L音响 保温箱",
+      "model": "21L音响 保温箱",
+      "seriesName": "音响保温箱系列",
+      "colors": "黑色、绿色、白色",
+      "material": "外壳、上盖：PE；提手：PP；隔层：PU发泡（6面）；功率： 2*4W；电池规格： 3.7V/1500MA 锂电池；续航时间：3~6小时",
+      "sizes": "外尺寸：460×320×310；内尺寸：360×250×230",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 34.53,
+      "contactRange": "501-999 pcs",
+      "over1000": 30.22,
+      "lowest": 30.22
+    },
+    "source": {
+      "sheet": "音响保温箱",
+      "row": 5
+    },
+    "featured": true
+  },
+  {
+    "id": "d428d2ffd0f9d2d9",
+    "slug": "speaker-52lspeaker-cooler",
+    "title": "52L Speaker Cooler",
+    "model": "52L Speaker Cooler",
+    "series": "speaker",
+    "seriesName": "Speaker Coolers",
+    "image": "/images/products/speaker-52lspeaker-cooler.webp",
+    "capacityLiters": 52,
+    "colors": "Blue, White / Black",
+    "material": "Shell and lid: PE; Inner liner: PP; Handle: Aluminum alloy trolley; Insulation: PU foam(6-sided); Battery: 3.7V/1500MA lithium battery; Battery life: 3~6hours",
+    "sizes": "External: 530 x 440 x 476; Internal: 446 x 322 x 387",
+    "netWeightKg": 6.8,
+    "grossWeightKg": 9,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "52L音响 保温箱",
+      "model": "52L音响 保温箱",
+      "seriesName": "音响保温箱系列",
+      "colors": "蓝色、白黑",
+      "material": "外壳、上盖：PE；内胆：PP；提手：铝合金栏杆；隔层：PU发泡（6面）；电池规格： 3.7V/1500MA 锂电池；续航时间：3~6小时",
+      "sizes": "外尺寸：530×440×476；内尺寸：446×322×387",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 53.54,
+      "contactRange": "501-999 pcs",
+      "over1000": 46.85,
+      "lowest": 46.85
+    },
+    "source": {
+      "sheet": "音响保温箱",
+      "row": 6
+    },
+    "featured": false
+  },
+  {
+    "id": "af2ab4b7fa2e35de",
+    "slug": "outdoor-keeice-6l-cooler",
+    "title": "Keeice-6L Cooler",
+    "model": "Keeice-6L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-keeice-6l-cooler.webp",
+    "capacityLiters": 6,
+    "colors": "Pink, Pastel Blue, Purple, Green",
+    "material": "Shell, lid and inner liner: PP; Shoulder strap: PU; Insulation: EPS foam; (6-sided)",
+    "sizes": "External: 310 x 205 x 200; Internal: 260 x 175 x 112",
+    "netWeightKg": 0.96,
+    "grossWeightKg": 1.74,
+    "packing": "PO bag + corner protectors + inner carton + color box",
+    "cartonQty": 1,
+    "zh": {
+      "title": "Keeice-6L 保温箱",
+      "model": "Keeice-6L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "粉红、粉蓝、紫色、绿色",
+      "material": "外壳，盖子，内胆：PP；肩带：PU；隔层：EPS 发泡；（6 面）",
+      "sizes": "外尺寸：310×205×200；内尺寸：260×175×112",
+      "packing": "PO袋+护角+内纸箱+彩盒"
+    },
+    "pricing": {
+      "under500": 14.08,
+      "contactRange": "501-999 pcs",
+      "over1000": 12.32,
+      "lowest": 12.32
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 3
+    },
+    "featured": false
+  },
+  {
+    "id": "65423c9ae6302b32",
+    "slug": "outdoor-keeice-12l-cooler",
+    "title": "Keeice-12L Cooler",
+    "model": "Keeice-12L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-keeice-12l-cooler.webp",
+    "capacityLiters": 12,
+    "colors": "Pink, Pastel Blue, Purple, Green",
+    "material": "Shell, lid and inner liner: PP; Shoulder strap: PU; Insulation: EPS foam; (6-sided)",
+    "sizes": "External: 393 x 252 x 254; Internal: 343 x 217 x 157",
+    "netWeightKg": 1.445,
+    "grossWeightKg": 2.5,
+    "packing": "PO bag + corner protectors + inner carton + color box",
+    "cartonQty": 1,
+    "zh": {
+      "title": "Keeice-12L 保温箱",
+      "model": "Keeice-12L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "粉红、粉蓝、紫色、绿色",
+      "material": "外壳，盖子，内胆：PP；肩带：PU；隔层：EPS 发泡；（6 面）",
+      "sizes": "外尺寸：393×252×254；内尺寸：343×217×157",
+      "packing": "PO袋+护角+内纸箱+彩盒"
+    },
+    "pricing": {
+      "under500": 17.91,
+      "contactRange": "501-999 pcs",
+      "over1000": 13.32,
+      "lowest": 13.32
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 4
+    },
+    "featured": false
+  },
+  {
+    "id": "829e7f8480fcadd7",
+    "slug": "outdoor-keeice-18l-cooler",
+    "title": "Keeice-18L Cooler",
+    "model": "Keeice-18L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-keeice-18l-cooler.webp",
+    "capacityLiters": 18,
+    "colors": "Pink, Pastel Blue, Purple, Green",
+    "material": "Shell, lid and inner liner: PP; Shoulder strap: PU; Insulation: EPS foam; (6-sided)",
+    "sizes": "External: 472 x 310 x 305; Internal: 408 x 270 x 184",
+    "netWeightKg": 2.2,
+    "grossWeightKg": 4.07,
+    "packing": "PO bag + corner protectors + inner carton + color box",
+    "cartonQty": 1,
+    "zh": {
+      "title": "Keeice-18L 保温箱",
+      "model": "Keeice-18L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "粉红、粉蓝、紫色、绿色",
+      "material": "外壳，盖子，内胆：PP；肩带：PU；隔层：EPS 发泡；（6 面）",
+      "sizes": "外尺寸：472×310×305；内尺寸：408×270×184",
+      "packing": "PO袋+护角+内纸箱+彩盒"
+    },
+    "pricing": {
+      "under500": 19.36,
+      "contactRange": "501-999 pcs",
+      "over1000": 14.32,
+      "lowest": 14.32
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 5
+    },
+    "featured": false
+  },
+  {
+    "id": "5de4f0b0df3403eb",
+    "slug": "outdoor-8-can-beer-cooler",
+    "title": "8-Can Beer Cooler",
+    "model": "8-Can Beer Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-8-can-beer-cooler.webp",
+    "capacityLiters": null,
+    "colors": "Green",
+    "material": "Shell and lid: PE; Handle: PP; Insulation: EPS foam",
+    "sizes": "External: 180 x 184 x 260; Internal: 135 x 135 x 234",
+    "netWeightKg": 0.62,
+    "grossWeightKg": 1.5,
+    "packing": "PO bag + cross divider + carton (without inner box)",
+    "cartonQty": 8,
+    "zh": {
+      "title": "8can 啤酒箱",
+      "model": "8can 啤酒箱",
+      "seriesName": "户外系列",
+      "colors": "绿色",
+      "material": "外壳、盖子：PE；提手：PP；隔层：EPS发泡",
+      "sizes": "外尺寸：180×184×260；内尺寸：135×135×234",
+      "packing": "PO袋 + 十字隔板+纸箱 + （无内盒）"
+    },
+    "pricing": {
+      "under500": 5.54,
+      "contactRange": "501-999 pcs",
+      "over1000": 15.32,
+      "lowest": 5.54
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 6
+    },
+    "featured": false
+  },
+  {
+    "id": "fe3166d349ca1dfb",
+    "slug": "outdoor-3-8l-cooler",
+    "title": "3.8L Cooler",
+    "model": "3.8L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-3-8l-cooler.webp",
+    "capacityLiters": 3.8,
+    "colors": "Black, White",
+    "material": "Shell and lid: PP; Handle: Plastic; Insulation: PU foam; (6-sided)",
+    "sizes": "External: 288 x 215 x 190; Internal: 225 x 135 x 135",
+    "netWeightKg": 0.87,
+    "grossWeightKg": 1.09,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "3.8L 保温箱",
+      "model": "3.8L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "黑色、白色",
+      "material": "外壳、上盖：PP；提手：塑料；隔层：PU发泡；（6面）",
+      "sizes": "外尺寸：288×215×190；内尺寸：225×135×135",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 7.44,
+      "contactRange": "501-999 pcs",
+      "over1000": 16.32,
+      "lowest": 7.44
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 7
+    },
+    "featured": false
+  },
+  {
+    "id": "acc2556dcc23f0bf",
+    "slug": "outdoor-5l-cooler",
+    "title": "5L Cooler",
+    "model": "5L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-5l-cooler.webp",
+    "capacityLiters": 5,
+    "colors": "White / Gray, Khaki",
+    "material": "Lid: PE; Shell, handle and inner liner: PP; Insulation: EPS foam; (5-sided)",
+    "sizes": "External: 265 x 182 x 175; Internal: 195 x 125 x 130",
+    "netWeightKg": 0.6,
+    "grossWeightKg": 0.82,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "5L 保温箱",
+      "model": "5L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "白灰色、卡其色",
+      "material": "上盖：PE；外壳、提手、内胆：PP；隔层：EPS发泡；（5面）",
+      "sizes": "外尺寸：265×182×175；内尺寸：195×125×130",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 3.65,
+      "contactRange": "501-999 pcs",
+      "over1000": 17.32,
+      "lowest": 3.65
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 8
+    },
+    "featured": false
+  },
+  {
+    "id": "b81f4ba849c973ef",
+    "slug": "outdoor-5-5l-cooler",
+    "title": "5.5L Cooler",
+    "model": "5.5L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-5-5l-cooler.webp",
+    "capacityLiters": 5.5,
+    "colors": "White, Blue, Green",
+    "material": "Lid: PE; Shell and handle: PP; Insulation: PU foam; (5-sided)",
+    "sizes": "External: 290 x 208 x 204; Internal: 220 x 148 x 154",
+    "netWeightKg": 0.92,
+    "grossWeightKg": 1.25,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "5.5L 保温箱",
+      "model": "5.5L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "白色、蓝色、绿色",
+      "material": "上盖：PE；外壳、提手：PP；隔层：PU发泡；（5面）",
+      "sizes": "外尺寸：290×208×204；内尺寸：220×148×154",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 5.33,
+      "contactRange": "501-999 pcs",
+      "over1000": 18.32,
+      "lowest": 5.33
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 9
+    },
+    "featured": false
+  },
+  {
+    "id": "12197cec57a514a5",
+    "slug": "outdoor-6l-cooler",
+    "title": "6L Cooler",
+    "model": "6L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-6l-cooler.webp",
+    "capacityLiters": 6,
+    "colors": "White, Blue",
+    "material": "Shell and lid: PE; Handle and Inner liner: PP; Insulation: PU foam; (5-sided)",
+    "sizes": "External: 300 x 206 x 203; Internal: 230 x 135 x 158",
+    "netWeightKg": 0.95,
+    "grossWeightKg": 1.49,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "6L 保温箱",
+      "model": "6L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "白色、蓝色",
+      "material": "外壳、上盖：PE；提手、内胆：PP；隔层：PU发泡；（5面）",
+      "sizes": "外尺寸：300×206×203；内尺寸：230×135×158",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 5.92,
+      "contactRange": "501-999 pcs",
+      "over1000": 19.32,
+      "lowest": 5.92
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 10
+    },
+    "featured": false
+  },
+  {
+    "id": "308480a850425a54",
+    "slug": "outdoor-8l-cooler",
+    "title": "8L Cooler",
+    "model": "8L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-8l-cooler.webp",
+    "capacityLiters": 8,
+    "colors": "White, Blue",
+    "material": "Lid: PE; Shell, handle and inner liner: PP; Insulation: PU foam; (5-sided)",
+    "sizes": "External: 340 x 258 x 222; Internal: 280 x 190 x 165",
+    "netWeightKg": 1.7,
+    "grossWeightKg": 2.06,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "8L 保温箱",
+      "model": "8L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "白色、蓝色",
+      "material": "上盖：PE；外壳、提手、内胆：PP；隔层：PU发泡；（5面）",
+      "sizes": "外尺寸：340×258×222；内尺寸：280×190×165",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 7.75,
+      "contactRange": "501-999 pcs",
+      "over1000": 20.32,
+      "lowest": 7.75
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 11
+    },
+    "featured": false
+  },
+  {
+    "id": "dbfc0df7ccddca22",
+    "slug": "outdoor-10la-cooler",
+    "title": "10LA Cooler",
+    "model": "10LA Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-10la-cooler.webp",
+    "capacityLiters": 10,
+    "colors": "White / Green, Black",
+    "material": "Lid: PE; Shell and handle: PP; Insulation: PU foam; (5-sided)",
+    "sizes": "External: 330 x 232 x 295; Internal: 260 x 160 x 230",
+    "netWeightKg": 1.35,
+    "grossWeightKg": 2,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "10LA 保温箱",
+      "model": "10LA 保温箱",
+      "seriesName": "户外系列",
+      "colors": "白绿、黑色",
+      "material": "上盖：PE；外壳、提手：PP；隔层：PU发泡；（5面）",
+      "sizes": "外尺寸：330×232×295；内尺寸：260×160×230",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 8.83,
+      "contactRange": "501-999 pcs",
+      "over1000": 21.32,
+      "lowest": 8.83
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 12
+    },
+    "featured": false
+  },
+  {
+    "id": "9a35722bed85ac5d",
+    "slug": "outdoor-10lb-cooler",
+    "title": "10LB Cooler",
+    "model": "10LB Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-10lb-cooler.webp",
+    "capacityLiters": 10,
+    "colors": "Khaki, Blue",
+    "material": "Shell, Lid, Inner liner: PP; Handle: Shoulder strap; Insulation: PU foam (5-sided)",
+    "sizes": "External: 294 x 228 x 310; Internal: 245 x 117 x 240",
+    "netWeightKg": 3,
+    "grossWeightKg": 3.65,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "10LB 保温箱",
+      "model": "10LB 保温箱",
+      "seriesName": "户外系列",
+      "colors": "卡其色、蓝色",
+      "material": "外壳，上盖，内胆：PP；提手：肩带；隔层：PU（5面）",
+      "sizes": "外尺寸：294×228×310；内尺寸：245×117×240",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 14.77,
+      "contactRange": "501-999 pcs",
+      "over1000": 22.32,
+      "lowest": 14.77
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 13
+    },
+    "featured": false
+  },
+  {
+    "id": "69d5cfb86bb769cf",
+    "slug": "outdoor-6qt-5-6l-cooler",
+    "title": "6QT / 5.6L Cooler",
+    "model": "6QT / 5.6L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-6qt-5-6l-cooler.webp",
+    "capacityLiters": 5.6,
+    "colors": "Blue, Pink, Khaki",
+    "material": "Shell and lid and Inner liner: PP; Handle: Shoulder strap; Insulation: EPS foam; (6-sided)",
+    "sizes": "External: 322 x 207 x 198; Internal: 250 x 150 x 127",
+    "netWeightKg": 0.67,
+    "grossWeightKg": 1,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "6QT≈5.6L 保温箱",
+      "model": "6QT≈5.6L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "蓝色、粉色、卡其色",
+      "material": "外壳、上盖、内胆：PP；提手：肩带；保温层：EPS发泡；（6面）",
+      "sizes": "外尺寸：322×207×198；内尺寸：250×150×127",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 8.81,
+      "contactRange": "501-999 pcs",
+      "over1000": 23.32,
+      "lowest": 8.81
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 14
+    },
+    "featured": false
+  },
+  {
+    "id": "d86caa5bce329ed9",
+    "slug": "outdoor-12qt-11-3l-cooler",
+    "title": "12QT / 11.3L Cooler",
+    "model": "12QT / 11.3L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-12qt-11-3l-cooler.webp",
+    "capacityLiters": 11.3,
+    "colors": "Blue, Pink, Khaki",
+    "material": "Shell and lid and Inner liner: PP; Handle: Shoulder strap; Insulation: EPS foam; (6-sided)",
+    "sizes": "External: 400 x 260 x 234; Internal: 300 x 180 x 150",
+    "netWeightKg": 1,
+    "grossWeightKg": 1.4,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "12QT≈11.3L 保温箱",
+      "model": "12QT≈11.3L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "蓝色、粉色、卡其色",
+      "material": "外壳、上盖、内胆：PP；提手：肩带；保温层：EPS发泡；（6面）",
+      "sizes": "外尺寸：400×260×234；内尺寸：300×180×150",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 9.4,
+      "contactRange": "501-999 pcs",
+      "over1000": 24.32,
+      "lowest": 9.4
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 15
+    },
+    "featured": false
+  },
+  {
+    "id": "00bcdb458cab7f2a",
+    "slug": "outdoor-20qt-18-9l-cooler",
+    "title": "20QT / 18.9L Cooler",
+    "model": "20QT / 18.9L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-20qt-18-9l-cooler.webp",
+    "capacityLiters": 18.9,
+    "colors": "Blue, Pink, Khaki",
+    "material": "Shell and lid and Inner liner: PP; Handle: Shoulder strap; Insulation: EPS foam; (6-sided)",
+    "sizes": "External: 448 x 293 x 282; Internal: 345 x 200 x 177",
+    "netWeightKg": 1.53,
+    "grossWeightKg": "2.18\r",
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "20QT≈18.9L 保温箱",
+      "model": "20QT≈18.9L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "蓝色、粉色、卡其色",
+      "material": "外壳、上盖、内胆：PP；提手：肩带；保温层：EPS发泡；（6面）",
+      "sizes": "外尺寸：448×293×282；内尺寸：345×200×177",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 12.22,
+      "contactRange": "501-999 pcs",
+      "over1000": 25.32,
+      "lowest": 12.22
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 16
+    },
+    "featured": false
+  },
+  {
+    "id": "a8f7b086f8d7d199",
+    "slug": "outdoor-12l-cooler",
+    "title": "12L Plastic Handle Cooler",
+    "model": "12L Plastic Handle Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-12l-cooler.webp",
+    "capacityLiters": 12,
+    "colors": "Pink, Green, Black",
+    "material": "Shell and lid: PP; Handle: Plastic; Insulation: PU foam; (6-sided)",
+    "sizes": "External: 358 x 267 x 233; Internal: 295 x 192 x 178",
+    "netWeightKg": 1.7,
+    "grossWeightKg": 2.2,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "12L 保温箱 塑料提手款",
+      "model": "12L 保温箱 塑料提手款",
+      "seriesName": "户外系列",
+      "colors": "粉色、绿色、黑色",
+      "material": "外壳、上盖：PP；提手：塑料；隔层：PU发泡；（6面）",
+      "sizes": "外尺寸：358×267×233；内尺寸：295×192×178",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 10.39,
+      "contactRange": "501-999 pcs",
+      "over1000": 26.32,
+      "lowest": 10.39
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 17
+    },
+    "featured": false
+  },
+  {
+    "id": "849a758cad51fb6b",
+    "slug": "outdoor-12l-cooler-849a75",
+    "title": "12L Shoulder Strap Cooler",
+    "model": "12L Shoulder Strap Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-12l-cooler-849a75.webp",
+    "capacityLiters": 12,
+    "colors": "Pink, Green, Black, Navy Blue, Dark Green",
+    "material": "Shell and lid: PP; Handle: Shoulder strap; Insulation: PU foam; (6-sided)",
+    "sizes": "External: 353 x 250 x 233; Internal: 295 x 192 x 178",
+    "netWeightKg": 2.1,
+    "grossWeightKg": 2.6,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "12L 保温箱 肩带款",
+      "model": "12L 保温箱 肩带款",
+      "seriesName": "户外系列",
+      "colors": "粉色、绿色、黑色、深蓝色、深绿色",
+      "material": "外壳、上盖：PP；提手：肩带；隔层：PU发泡；（6面）",
+      "sizes": "外尺寸：353×250×233；内尺寸：295×192×178",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 12.07,
+      "contactRange": "501-999 pcs",
+      "over1000": 27.32,
+      "lowest": 12.07
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 18
+    },
+    "featured": false
+  },
+  {
+    "id": "89b69b2d9ba35218",
+    "slug": "outdoor-12l-cooler-89b69b",
+    "title": "12L Stainless Handle Cooler",
+    "model": "12L Stainless Handle Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-12l-cooler-89b69b.webp",
+    "capacityLiters": 12,
+    "colors": "Pink, Green, Black, Navy Blue, Dark Green",
+    "material": "Shell and lid: PP; Handle: Stainless steel; Insulation: PU foam; (6-sided)",
+    "sizes": "External: 378 x 270 x 233; Internal: 295 x 192 x 178",
+    "netWeightKg": 2.2,
+    "grossWeightKg": 2.7,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "12L 保温箱 不锈钢提手款",
+      "model": "12L 保温箱 不锈钢提手款",
+      "seriesName": "户外系列",
+      "colors": "粉色、绿色、黑色、深蓝色、深绿色",
+      "material": "外壳、上盖：PP；提手：不锈钢；隔层：PU发泡；（6面）",
+      "sizes": "外尺寸：378×270×233；内尺寸：295×192×178",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 13.32,
+      "contactRange": "501-999 pcs",
+      "over1000": 28.32,
+      "lowest": 13.32
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 19
+    },
+    "featured": false
+  },
+  {
+    "id": "2b42d7bd6900acec",
+    "slug": "outdoor-13l-cooler",
+    "title": "13L Cooler",
+    "model": "13L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-13l-cooler.webp",
+    "capacityLiters": 13,
+    "colors": "Pink, Green, Black, Navy Blue, Dark Green",
+    "material": "Lid: PE; Shell, handle and inner liner: PP; Insulation: PU foam; (5-sided)",
+    "sizes": "External: 340 x 268 x 310; Internal: 258 x 185 x 253",
+    "netWeightKg": 1.9,
+    "grossWeightKg": 2.7,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "13L 保温箱",
+      "model": "13L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "粉色、绿色、黑色、深蓝色、深绿色",
+      "material": "上盖：PE；外壳、提手、内胆：PP；隔层：PU发泡；（5面）",
+      "sizes": "外尺寸：340×268×310；内尺寸：258×185×253",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 9.63,
+      "contactRange": "501-999 pcs",
+      "over1000": 29.32,
+      "lowest": 9.63
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 20
+    },
+    "featured": false
+  },
+  {
+    "id": "4b5c3a8b56187459",
+    "slug": "outdoor-14l-cooler",
+    "title": "14L Cooler",
+    "model": "14L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-14l-cooler.webp",
+    "capacityLiters": 14,
+    "colors": "White",
+    "material": "Lid: Rubberwood; Shell and handle: PP; Insulation: PU foam; (5-sided)",
+    "sizes": "External: 390 x 255 x 290; Internal: 305 x 200 x 223",
+    "netWeightKg": 2.6,
+    "grossWeightKg": 3.5,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "14L 保温箱",
+      "model": "14L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "白色",
+      "material": "上盖：橡胶木；外壳、提手：PP；隔层：PU发泡；（5面）",
+      "sizes": "外尺寸：390×255×290；内尺寸：305×200×223",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 15.95,
+      "contactRange": "501-999 pcs",
+      "over1000": 30.32,
+      "lowest": 15.95
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 21
+    },
+    "featured": false
+  },
+  {
+    "id": "5cb73c6e708a9434",
+    "slug": "outdoor-15l-cooler",
+    "title": "15L Cooler",
+    "model": "15L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-15l-cooler.webp",
+    "capacityLiters": 15,
+    "colors": "Red, Black, Green",
+    "material": "Shell, lid and handle: PE; Inner liner: PP; Insulation: PU foam (5-sided)",
+    "sizes": "External: 390 x 285 x 360; Internal: 305 x 200 x 230",
+    "netWeightKg": 2.25,
+    "grossWeightKg": 2.95,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "15L 保温箱",
+      "model": "15L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "红色、黑色、绿色",
+      "material": "外壳、上盖、提手：PE；内胆：PP；隔层：PU（5面）",
+      "sizes": "外尺寸：390×285×360；内尺寸：305×200×230",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 16.5,
+      "contactRange": "501-999 pcs",
+      "over1000": 31.32,
+      "lowest": 16.5
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 22
+    },
+    "featured": false
+  },
+  {
+    "id": "c8ea7ae4dfa2cc2a",
+    "slug": "outdoor-16qt-a-cooler",
+    "title": "16QT-A Cooler",
+    "model": "16QT-A Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-16qt-a-cooler.webp",
+    "capacityLiters": 15.1,
+    "colors": "Black, Khaki",
+    "material": "Shell and lid: PE; Handle and Inner liner: PP; Insulation: PU foam (6-sided)",
+    "sizes": "External: 401 x 266 x 288; Internal: 3415 x 209 x 219",
+    "netWeightKg": 2.55,
+    "grossWeightKg": 3.05,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "16QT-A 保温箱",
+      "model": "16QT-A 保温箱",
+      "seriesName": "户外系列",
+      "colors": "黑色、卡其色",
+      "material": "外壳、上盖：PE；提手、内胆：PP；隔层：PU（6面）",
+      "sizes": "外尺寸：401×266×288；内尺寸：3415×209×219",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 18.06,
+      "contactRange": "501-999 pcs",
+      "over1000": 32.32,
+      "lowest": 18.06
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 23
+    },
+    "featured": false
+  },
+  {
+    "id": "39ec40ca0be9945d",
+    "slug": "outdoor-16qt-b-cooler",
+    "title": "16QT-B Cooler",
+    "model": "16QT-B Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-16qt-b-cooler.webp",
+    "capacityLiters": 15.1,
+    "colors": "Black, Khaki",
+    "material": "Shell and lid: PE; Handle and Inner liner: PP; Insulation: PU foam (6-sided)",
+    "sizes": "External: 401 x 266 x 288; Internal: 3415 x 209 x 219",
+    "netWeightKg": 2.8,
+    "grossWeightKg": 3.2,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "16QT-B 保温箱",
+      "model": "16QT-B 保温箱",
+      "seriesName": "户外系列",
+      "colors": "黑色、卡其色",
+      "material": "外壳、上盖：PE；提手、内胆：PP；隔层：PU（6面）",
+      "sizes": "外尺寸：401×266×288；内尺寸：3415×209×219",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 23.45,
+      "contactRange": "501-999 pcs",
+      "over1000": 33.32,
+      "lowest": 23.45
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 24
+    },
+    "featured": false
+  },
+  {
+    "id": "4ac960c0b7c74a5c",
+    "slug": "outdoor-18l-cooler",
+    "title": "18L Cooler",
+    "model": "18L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-18l-cooler.webp",
+    "capacityLiters": 18,
+    "colors": "Blue, White",
+    "material": "Shell and lid: PE; Handle: PP; Insulation: PU foam; (5-sided)",
+    "sizes": "External: 405 x 320 x 290; Internal: 315 x 235 x 223",
+    "netWeightKg": 2.5,
+    "grossWeightKg": 3.5,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "18L 保温箱",
+      "model": "18L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "蓝色、白色",
+      "material": "外壳、上盖：PE；提手：PP；隔层：PU发泡；（5面）",
+      "sizes": "外尺寸：405×320×290；内尺寸：315×235×223",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 11.9,
+      "contactRange": "501-999 pcs",
+      "over1000": 34.32,
+      "lowest": 11.9
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 25
+    },
+    "featured": false
+  },
+  {
+    "id": "63476659f39df109",
+    "slug": "outdoor-22l-cooler",
+    "title": "22L Cooler",
+    "model": "22L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-22l-cooler.webp",
+    "capacityLiters": 22,
+    "colors": "White / Green, Military Green",
+    "material": "Lid: PE; Shell and handle: PP; Insulation: PU foam; (5-sided)",
+    "sizes": "External: 450 x 310 x 378; Internal: 355 x 220 x 305",
+    "netWeightKg": 3.02,
+    "grossWeightKg": 3.8,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "22L 保温箱",
+      "model": "22L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "白绿、军绿色",
+      "material": "上盖：PE；外壳、提手：PP；隔层：PU发泡；（5面）",
+      "sizes": "外尺寸：450×310×378；内尺寸：355×220×305",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 15.66,
+      "contactRange": "501-999 pcs",
+      "over1000": 35.32,
+      "lowest": 15.66
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 26
+    },
+    "featured": false
+  },
+  {
+    "id": "3f1b9fe43c3831aa",
+    "slug": "outdoor-24l-cooler",
+    "title": "24L Cooler",
+    "model": "24L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-24l-cooler.webp",
+    "capacityLiters": 24,
+    "colors": "Blue",
+    "material": "Shell, lid, inner liner and handle: PP; Insulation: EPS",
+    "sizes": "External: 340 x 340 x 410; Internal: 270 x 210 x 338",
+    "netWeightKg": 2.3,
+    "grossWeightKg": 2.9,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "24L 保温箱",
+      "model": "24L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "蓝色",
+      "material": "外壳，盖子，内胆，提手：PP；隔层：EPS",
+      "sizes": "外尺寸：340×340×410；内尺寸：270×210×338",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 13.55,
+      "contactRange": "501-999 pcs",
+      "over1000": 36.32,
+      "lowest": 13.55
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 27
+    },
+    "featured": false
+  },
+  {
+    "id": "8eddf3559a1834ab",
+    "slug": "outdoor-28l-cooler",
+    "title": "28L Cooler",
+    "model": "28L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-28l-cooler.webp",
+    "capacityLiters": 28,
+    "colors": "White / Gray, Blue, Brown, Green",
+    "material": "Lid: PE; Shell and handle: PP; Insulation: PU foam; (5-sided)",
+    "sizes": "External: 470 x 340 x 410; Internal: 360 x 230 x 340",
+    "netWeightKg": 3.8,
+    "grossWeightKg": 4.5,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "28L 保温箱",
+      "model": "28L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "白灰色、蓝色、棕色、绿色",
+      "material": "上盖：PE；外壳、提手：PP；隔层：PU发泡；（5面）",
+      "sizes": "外尺寸：470×340×410；内尺寸：360×230×340",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 17.4,
+      "contactRange": "501-999 pcs",
+      "over1000": 37.32,
+      "lowest": 17.4
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 28
+    },
+    "featured": false
+  },
+  {
+    "id": "aafde2acc2189c8d",
+    "slug": "outdoor-18lwheeled-cooler",
+    "title": "18L Wheeled Cooler",
+    "model": "18L Wheeled Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-18lwheeled-cooler.webp",
+    "capacityLiters": 18,
+    "colors": "White / Gray",
+    "material": "Shell and lid: PE; Inner liner: PP; Handle:Aluminum trolley; Insulation: PU foam (6-sided)",
+    "sizes": "External: 373 x 324 x 381; Internal: 296 x 230 x 276",
+    "netWeightKg": 3.3,
+    "grossWeightKg": 4.5,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "18L拉杆 保温箱",
+      "model": "18L拉杆 保温箱",
+      "seriesName": "户外系列",
+      "colors": "白灰",
+      "material": "外壳、盖子：PE；内胆：PP；提手:铝拉杆；隔层：PU(6面)",
+      "sizes": "外尺寸：373×324×381；内尺寸：296×230×276",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 25.24,
+      "contactRange": "501-999 pcs",
+      "over1000": 38.32,
+      "lowest": 25.24
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 29
+    },
+    "featured": false
+  },
+  {
+    "id": "7ef2bb7be6af7cdf",
+    "slug": "outdoor-24qt-22-5l-cooler-non-wheeled-version",
+    "title": "24QT / 22.5L Cooler (Non-Wheeled Version)",
+    "model": "24QT / 22.5L Cooler (Non-Wheeled Version)",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-24qt-22-5l-cooler-non-wheeled-version.webp",
+    "capacityLiters": 22.5,
+    "colors": "Black, White",
+    "material": "Shell and lid: PE; Handle and Inner liner:PP; Insulation: PU foam (6-sided)",
+    "sizes": "External: 400 x 320 x 315; Internal: 341 x 209 x 219",
+    "netWeightKg": 3,
+    "grossWeightKg": 4,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "24QT≈22.5L 保温箱 （无轮版）",
+      "model": "24QT≈22.5L 保温箱 （无轮版）",
+      "seriesName": "户外系列",
+      "colors": "黑色、白色",
+      "material": "外壳、盖子：PE；提手、内胆:PP；隔层：PU(6面)",
+      "sizes": "外尺寸：400×320×315；内尺寸：341×209×219",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 23.35,
+      "contactRange": "501-999 pcs",
+      "over1000": 39.32,
+      "lowest": 23.35
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 30
+    },
+    "featured": false
+  },
+  {
+    "id": "b6a5e772653a72b6",
+    "slug": "outdoor-24qt-22-5l-cooler-wheeled-version",
+    "title": "24QT / 22.5L Cooler (Wheeled Version)",
+    "model": "24QT / 22.5L Cooler (Wheeled Version)",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-24qt-22-5l-cooler-wheeled-version.webp",
+    "capacityLiters": 22.5,
+    "colors": "Black, White",
+    "material": "Shell and lid: PE; Inner liner: PP; Handle:Aluminum trolley; Insulation: PU foam (6-sided)",
+    "sizes": "External: 427 x 340 x 405; Internal: 315 x 210 x 330",
+    "netWeightKg": 3.5,
+    "grossWeightKg": 4.55,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "24QT≈22.5L 保温箱 （带轮版）",
+      "model": "24QT≈22.5L 保温箱 （带轮版）",
+      "seriesName": "户外系列",
+      "colors": "黑色、白色",
+      "material": "外壳、盖子：PE；内胆：PP；提手:铝拉杆；隔层：PU(6面)",
+      "sizes": "外尺寸：427×340×405；内尺寸：315×210×330",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 34.34,
+      "contactRange": "501-999 pcs",
+      "over1000": 40.32,
+      "lowest": 34.34
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 31
+    },
+    "featured": true
+  },
+  {
+    "id": "8e013d99f7623066",
+    "slug": "outdoor-38qt-36l-cooler-non-wheeled-version",
+    "title": "38QT / 36L Cooler (Non-Wheeled Version)",
+    "model": "38QT / 36L Cooler (Non-Wheeled Version)",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-38qt-36l-cooler-non-wheeled-version.webp",
+    "capacityLiters": 36,
+    "colors": "Black, White",
+    "material": "Shell and lid: PE; Handle and Inner liner:PP; Insulation: PU foam (6-sided)",
+    "sizes": "External: 465 x 405 x 460; Internal: 370 x 225 x 378",
+    "netWeightKg": 4.75,
+    "grossWeightKg": 5.6,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "38QT≈36L 保温箱 （无轮版）",
+      "model": "38QT≈36L 保温箱 （无轮版）",
+      "seriesName": "户外系列",
+      "colors": "黑色、白色",
+      "material": "外壳、盖子：PE；提手、内胆:PP；隔层：PU(6面)",
+      "sizes": "外尺寸：465×405×460；内尺寸：370×225×378",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 25.45,
+      "contactRange": "501-999 pcs",
+      "over1000": 41.32,
+      "lowest": 25.45
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 32
+    },
+    "featured": false
+  },
+  {
+    "id": "458afa33ede87cb6",
+    "slug": "outdoor-38qt-36l-cooler",
+    "title": "38QT / 36L Cooler",
+    "model": "38QT / 36L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-38qt-36l-cooler.webp",
+    "capacityLiters": 36,
+    "colors": "Black, White",
+    "material": "Shell and lid: PE; Inner liner: PP; Handle:Aluminum trolley; Insulation: PU foam (6-sided)",
+    "sizes": "External: 465 x 405 x 460; Internal: 370 x 225 x 378",
+    "netWeightKg": 5.5,
+    "grossWeightKg": 7.55,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "38QT≈36L 保温箱",
+      "model": "38QT≈36L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "黑色、白色",
+      "material": "外壳、盖子：PE；内胆：PP；提手:铝拉杆；隔层：PU(6面)",
+      "sizes": "外尺寸：465×405×460；内尺寸：370×225×378",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 35.36,
+      "contactRange": "501-999 pcs",
+      "over1000": 42.32,
+      "lowest": 35.36
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 33
+    },
+    "featured": false
+  },
+  {
+    "id": "b6dff6b541d51154",
+    "slug": "outdoor-30l-cooler",
+    "title": "30L Cooler",
+    "model": "30L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-30l-cooler.webp",
+    "capacityLiters": 30,
+    "colors": "Blue, Beige / Brown",
+    "material": "Shell and lid: PE; Handle: Aluminum alloy trolley; Insulation: PU foam; (5-sided)",
+    "sizes": "External: 460 x 356 x 440; Internal: 360 x 230 x 340",
+    "netWeightKg": 4.6,
+    "grossWeightKg": 6.2,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "30L 保温箱",
+      "model": "30L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "蓝色、米棕色",
+      "material": "外壳、上盖：PE；提手：铝合金拉杆；隔层：PU发泡；（5面）",
+      "sizes": "外尺寸：460×356×440；内尺寸：360×230×340",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 27.05,
+      "contactRange": "501-999 pcs",
+      "over1000": 43.32,
+      "lowest": 27.05
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 34
+    },
+    "featured": false
+  },
+  {
+    "id": "98712b7088834cb1",
+    "slug": "outdoor-52l-cooler",
+    "title": "52L Cooler",
+    "model": "52L Cooler",
+    "series": "outdoor",
+    "seriesName": "Outdoor Series",
+    "image": "/images/products/outdoor-52l-cooler.webp",
+    "capacityLiters": 52,
+    "colors": "Blue, White / Black",
+    "material": "Shell and lid: PE; Handle: Aluminum alloy trolley; Insulation: PU foam; (6-sided)",
+    "sizes": "External: 528 x 415 x 480; Internal: 424 x 270 x 390",
+    "netWeightKg": 6.8,
+    "grossWeightKg": 9,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "52L 保温箱",
+      "model": "52L 保温箱",
+      "seriesName": "户外系列",
+      "colors": "蓝色、白黑",
+      "material": "外壳、上盖：PE；提手：铝合金栏杆；隔层：PU发泡；（6面）",
+      "sizes": "外尺寸：528×415×480；内尺寸：424×270×390",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 37.72,
+      "contactRange": "501-999 pcs",
+      "over1000": 44.32,
+      "lowest": 37.72
+    },
+    "source": {
+      "sheet": "户外系列",
+      "row": 35
+    },
+    "featured": false
+  },
+  {
+    "id": "8c78de7f2f38e51a",
+    "slug": "cc-cc6l-cooler",
+    "title": "CC6L Cooler",
+    "model": "CC6L Cooler",
+    "series": "cc",
+    "seriesName": "CC Series",
+    "image": "/images/products/cc-cc6l-cooler.webp",
+    "capacityLiters": 6,
+    "colors": "Green",
+    "material": "Shell, lid, handle and inner liner: PP; Insulation: EPS foam (6-sided)",
+    "sizes": "External: 294 x 208 x 216; Internal: 240 x 144 x 180",
+    "netWeightKg": 0.92,
+    "grossWeightKg": 1.27,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "CC6L 保温箱",
+      "model": "CC6L 保温箱",
+      "seriesName": "CC 系列",
+      "colors": "绿色",
+      "material": "外壳、上盖、提手、内胆：PP；隔层：EPS（6面）",
+      "sizes": "外尺寸：294×208×216；内尺寸：240×144×180",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 6.79,
+      "contactRange": "501-999 pcs",
+      "over1000": 5.94,
+      "lowest": 5.94
+    },
+    "source": {
+      "sheet": "CC系列",
+      "row": 3
+    },
+    "featured": false
+  },
+  {
+    "id": "23f7075016cd6b73",
+    "slug": "cc-cc8l-cooler",
+    "title": "CC8L Cooler",
+    "model": "CC8L Cooler",
+    "series": "cc",
+    "seriesName": "CC Series",
+    "image": "/images/products/cc-cc8l-cooler.webp",
+    "capacityLiters": 8,
+    "colors": "Green",
+    "material": "Shell, lid, handle and inner liner: PP; Insulation: EPS foam (6-sided)",
+    "sizes": "External: 294 x 208 x 276; Internal: 40 x 144 x 240",
+    "netWeightKg": 1.05,
+    "grossWeightKg": 1.4,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "CC8L 保温箱",
+      "model": "CC8L 保温箱",
+      "seriesName": "CC 系列",
+      "colors": "绿色",
+      "material": "外壳、上盖、提手、内胆：PP；隔层：EPS（6面）",
+      "sizes": "外尺寸：294×208×276；内尺寸：40×144×240",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 7.84,
+      "contactRange": "501-999 pcs",
+      "over1000": 6.86,
+      "lowest": 6.86
+    },
+    "source": {
+      "sheet": "CC系列",
+      "row": 4
+    },
+    "featured": false
+  },
+  {
+    "id": "3f63f598e195bc93",
+    "slug": "cc-cc10l-cooler",
+    "title": "CC10L Cooler",
+    "model": "CC10L Cooler",
+    "series": "cc",
+    "seriesName": "CC Series",
+    "image": "/images/products/cc-cc10l-cooler.webp",
+    "capacityLiters": 10,
+    "colors": "Green, Blue, White, Gray",
+    "material": "Shell and lid: ABS; Inner liner: PP; Handle: Shoulder strap; Insulation: EPS foam (6-sided)",
+    "sizes": "External: 294 x 208 x 387; Internal: 240 x 144 x 350",
+    "netWeightKg": 1.56,
+    "grossWeightKg": 2,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "CC10L 保温箱",
+      "model": "CC10L 保温箱",
+      "seriesName": "CC 系列",
+      "colors": "绿色、蓝色、白色、灰色",
+      "material": "外壳、上盖：ABS；内胆：PP；提手：肩带；隔层：EPS（6面）",
+      "sizes": "外尺寸：294×208×387；内尺寸：240×144×350",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 21.6,
+      "contactRange": "501-999 pcs",
+      "over1000": 18.9,
+      "lowest": 18.9
+    },
+    "source": {
+      "sheet": "CC系列",
+      "row": 5
+    },
+    "featured": false
+  },
+  {
+    "id": "ac0d33107bba60ad",
+    "slug": "cc-cc12l-cooler",
+    "title": "CC12L Cooler",
+    "model": "CC12L Cooler",
+    "series": "cc",
+    "seriesName": "CC Series",
+    "image": "/images/products/cc-cc12l-cooler.webp",
+    "capacityLiters": 12,
+    "colors": "Green",
+    "material": "Shell, lid, handle and inner liner: PP; Insulation: EPS foam (6-sided)",
+    "sizes": "External: 337 x 265 x 263; Internal: 320 x 200 x 221",
+    "netWeightKg": 1.4,
+    "grossWeightKg": 1.9,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "CC12L 保温箱",
+      "model": "CC12L 保温箱",
+      "seriesName": "CC 系列",
+      "colors": "绿色",
+      "material": "外壳、上盖、提手、内胆：PP；隔层：EPS（6面）",
+      "sizes": "外尺寸：337×265×263；内尺寸：320×200×221",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 11.17,
+      "contactRange": "501-999 pcs",
+      "over1000": 9.77,
+      "lowest": 9.77
+    },
+    "source": {
+      "sheet": "CC系列",
+      "row": 6
+    },
+    "featured": false
+  },
+  {
+    "id": "e5945ea325ab6acc",
+    "slug": "cc-cc15l-cooler",
+    "title": "CC15L Cooler",
+    "model": "CC15L Cooler",
+    "series": "cc",
+    "seriesName": "CC Series",
+    "image": "/images/products/cc-cc15l-cooler.webp",
+    "capacityLiters": 15,
+    "colors": "Green",
+    "material": "Shell, lid, handle and inner liner: PP; Insulation: EPS foam (6-sided)",
+    "sizes": "External: 337 x 265 x 318; Internal: 320 x 200 x 276",
+    "netWeightKg": 2,
+    "grossWeightKg": 2.56,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "CC15L 保温箱",
+      "model": "CC15L 保温箱",
+      "seriesName": "CC 系列",
+      "colors": "绿色",
+      "material": "外壳、上盖、提手、内胆：PP；隔层：EPS（6面）",
+      "sizes": "外尺寸：337×265×318；内尺寸：320×200×276",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 12.9,
+      "contactRange": "501-999 pcs",
+      "over1000": 11.28,
+      "lowest": 11.28
+    },
+    "source": {
+      "sheet": "CC系列",
+      "row": 7
+    },
+    "featured": true
+  },
+  {
+    "id": "9cefde4bacb8ef9a",
+    "slug": "cc-cc18l-cooler",
+    "title": "CC18L Cooler",
+    "model": "CC18L Cooler",
+    "series": "cc",
+    "seriesName": "CC Series",
+    "image": "/images/products/cc-cc18l-cooler.webp",
+    "capacityLiters": 18,
+    "colors": "Green",
+    "material": "Shell, lid, handle and inner liner: PP; Insulation: EPS foam (6-sided)",
+    "sizes": "External: 470 x 300 x 298; Internal: 400 x 220 x 248",
+    "netWeightKg": null,
+    "grossWeightKg": null,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "CC18L 保温箱",
+      "model": "CC18L 保温箱",
+      "seriesName": "CC 系列",
+      "colors": "绿色",
+      "material": "外壳、上盖、提手、内胆：PP；隔层：EPS（6面）",
+      "sizes": "外尺寸：470×300×298；内尺寸：400×220×248",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 14.33,
+      "contactRange": "501-999 pcs",
+      "over1000": 12.54,
+      "lowest": 12.54
+    },
+    "source": {
+      "sheet": "CC系列",
+      "row": 8
+    },
+    "featured": false
+  },
+  {
+    "id": "dde399eaceb73941",
+    "slug": "cc-cc28l-cooler",
+    "title": "CC28L Cooler",
+    "model": "CC28L Cooler",
+    "series": "cc",
+    "seriesName": "CC Series",
+    "image": "/images/products/cc-cc28l-cooler.webp",
+    "capacityLiters": 28,
+    "colors": "Green",
+    "material": "Shell, lid, handle and inner liner: PP; Insulation: EPS foam (6-sided)",
+    "sizes": "External: 470 x 300 x 408; Internal: 400 x 220 x 358",
+    "netWeightKg": null,
+    "grossWeightKg": null,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "CC28L 保温箱",
+      "model": "CC28L 保温箱",
+      "seriesName": "CC 系列",
+      "colors": "绿色",
+      "material": "外壳、上盖、提手、内胆：PP；隔层：EPS（6面）",
+      "sizes": "外尺寸：470×300×408；内尺寸：400×220×358",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 21.07,
+      "contactRange": "501-999 pcs",
+      "over1000": 18.44,
+      "lowest": 18.44
+    },
+    "source": {
+      "sheet": "CC系列",
+      "row": 9
+    },
+    "featured": false
+  },
+  {
+    "id": "a344a5a4dcd7f3f6",
+    "slug": "medical-8-3l-cooler",
+    "title": "8.3L Cooler",
+    "model": "8.3L Cooler",
+    "series": "medical",
+    "seriesName": "Medical Coolers",
+    "image": "/images/products/medical-8-3l-cooler.webp",
+    "capacityLiters": 8.3,
+    "colors": "White / Gray, Blue",
+    "material": "Shell, lid and handle: PP; Insulation: PU foam; (6-sided)",
+    "sizes": "External: 350 x 260 x 290; Internal: 260 x 170 x 190",
+    "netWeightKg": 2,
+    "grossWeightKg": 2.6,
+    "packing": "PO bag + carton",
+    "cartonQty": 4,
+    "zh": {
+      "title": "8.3L 保温箱",
+      "model": "8.3L 保温箱",
+      "seriesName": "医药冷链系列",
+      "colors": "白灰、蓝色",
+      "material": "外壳、上盖、提手：PP；隔层：PU发泡；（6面）",
+      "sizes": "外尺寸：350×260×290；内尺寸：260×170×190",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 11.27,
+      "contactRange": "501-999 pcs",
+      "over1000": 9.86,
+      "lowest": 9.86
+    },
+    "source": {
+      "sheet": "医药系列",
+      "row": 3
+    },
+    "featured": false
+  },
+  {
+    "id": "5650ff78d2b55615",
+    "slug": "medical-12l-cooler",
+    "title": "12L Cooler",
+    "model": "12L Cooler",
+    "series": "medical",
+    "seriesName": "Medical Coolers",
+    "image": "/images/products/medical-12l-cooler.webp",
+    "capacityLiters": 12,
+    "colors": "White, Blue",
+    "material": "Shell and lid: PE; Handle: PP; Insulation: PU foam; (6-sided)",
+    "sizes": "External: 410 x 250 x 278; Internal: 325 x 165 x 205",
+    "netWeightKg": 2,
+    "grossWeightKg": 2.9,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "12L 保温箱",
+      "model": "12L 保温箱",
+      "seriesName": "医药冷链系列",
+      "colors": "白色、蓝色",
+      "material": "外壳、上盖：PE；提手：PP；隔层：PU发泡；（6面）",
+      "sizes": "外尺寸：410×250×278；内尺寸：325×165×205",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 12.37,
+      "contactRange": "501-999 pcs",
+      "over1000": 10.82,
+      "lowest": 10.82
+    },
+    "source": {
+      "sheet": "医药系列",
+      "row": 4
+    },
+    "featured": false
+  },
+  {
+    "id": "ce0fc47c8cd2222d",
+    "slug": "medical-20l-cooler",
+    "title": "20L Cooler",
+    "model": "20L Cooler",
+    "series": "medical",
+    "seriesName": "Medical Coolers",
+    "image": "/images/products/medical-20l-cooler.webp",
+    "capacityLiters": 20,
+    "colors": "White",
+    "material": "Lid: PE; Shell and handle: PP; Insulation: PU foam; (5-sided)",
+    "sizes": "External: 400 x 320 x 313; Internal: 363 x 250 x 240",
+    "netWeightKg": 3,
+    "grossWeightKg": 3.6,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "20L 保温箱",
+      "model": "20L 保温箱",
+      "seriesName": "医药冷链系列",
+      "colors": "白色",
+      "material": "上盖：PE；外壳、提手：PP；隔层：PU发泡；（5面）",
+      "sizes": "外尺寸：400×320×313；内尺寸：363×250×240",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 21.39,
+      "contactRange": "501-999 pcs",
+      "over1000": 18.71,
+      "lowest": 18.71
+    },
+    "source": {
+      "sheet": "医药系列",
+      "row": 5
+    },
+    "featured": false
+  },
+  {
+    "id": "c10ce38f79eada63",
+    "slug": "medical-21l-cooler",
+    "title": "21L Cooler",
+    "model": "21L Cooler",
+    "series": "medical",
+    "seriesName": "Medical Coolers",
+    "image": "/images/products/medical-21l-cooler.webp",
+    "capacityLiters": 21,
+    "colors": "Green, Gray",
+    "material": "Shell and lid: PE; Handle: PP; Insulation: PU foam(6-sided)",
+    "sizes": "External: 455 x 360 x 315; Internal: 350 x 235 x 240",
+    "netWeightKg": 3.9,
+    "grossWeightKg": 4.6,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "21L 保温箱",
+      "model": "21L 保温箱",
+      "seriesName": "医药冷链系列",
+      "colors": "绿色、灰色",
+      "material": "外壳、上盖：PE；提手：PP；隔层：PU发泡（6面）",
+      "sizes": "外尺寸：455×360×315；内尺寸：350×235×240",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 20.84,
+      "contactRange": "501-999 pcs",
+      "over1000": 18.23,
+      "lowest": 18.23
+    },
+    "source": {
+      "sheet": "医药系列",
+      "row": 6
+    },
+    "featured": true
+  },
+  {
+    "id": "0ad60623ea6386ae",
+    "slug": "medical-33l-cooler",
+    "title": "33L Cooler",
+    "model": "33L Cooler",
+    "series": "medical",
+    "seriesName": "Medical Coolers",
+    "image": "/images/products/medical-33l-cooler.webp",
+    "capacityLiters": 33,
+    "colors": "Blue",
+    "material": "Shell and lid: PE; Handle: PP; Insulation: PU foam; (5-sided)",
+    "sizes": "External: 555 x 335 x 335; Internal: 450 x 248 x 260",
+    "netWeightKg": 4,
+    "grossWeightKg": 4.8,
+    "packing": "PO bag + carton",
+    "cartonQty": 1,
+    "zh": {
+      "title": "33L 保温箱",
+      "model": "33L 保温箱",
+      "seriesName": "医药冷链系列",
+      "colors": "蓝色",
+      "material": "外壳、上盖：PE；提手：PP；隔层：PU发泡；（5面）",
+      "sizes": "外尺寸：555×335×335；内尺寸：450×248×260",
+      "packing": "PO袋 + 纸箱"
+    },
+    "pricing": {
+      "under500": 26.13,
+      "contactRange": "501-999 pcs",
+      "over1000": 22.86,
+      "lowest": 22.86
+    },
+    "source": {
+      "sheet": "医药系列",
+      "row": 7
+    },
+    "featured": false
+  }
+]

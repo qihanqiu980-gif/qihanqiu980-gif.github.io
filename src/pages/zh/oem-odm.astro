@@ -1,0 +1,48 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { allProducts, productCopy, whatsappUrl } from "../../lib/products";
+const visual = allProducts.find((product) => product.series === "pro" && product.capacityLiters === 50) || allProducts[0];
+const visualCopy = productCopy(visual, "zh");
+---
+
+<BaseLayout locale="zh" title="OEM 与 ODM 保温箱制造 | LONFRO" description="与 LONFRO 共同开发自有品牌及定制保温箱产品项目。">
+  <section class="page-hero oem-page-hero">
+    <div class="container series-hero-grid">
+      <div class="narrow-heading">
+        <p class="eyebrow">OEM / ODM 定制制造</p>
+        <h1>围绕目标市场搭建您的保温箱产品线。</h1>
+        <p>从颜色和品牌定制，到全新结构与模具开发，我们为符合条件的产品开发项目提供支持。</p>
+        <a class="button button-primary" href="/zh/contact/">发起项目询价</a>
+      </div>
+      <img src={visual.image} alt={visualCopy.title} width="900" height="900" />
+    </div>
+  </section>
+
+  <section class="section process-section">
+    <div class="container">
+      <div class="section-heading"><h2>从需求到交付的清晰路径</h2><p>每个项目都将结合采购数量、开发范围、模具需求、目标市场和交付计划进行评估。</p></div>
+      <div class="process-grid">
+        <article><h3>明确项目需求</h3><p>确定目标容量、使用场景、销售市场、价格定位与预计采购量。</p></article>
+        <article><h3>确认产品方案</h3><p>选择现有平台，或评估全新结构开发与模具需求。</p></article>
+        <article><h3>验证样品</h3><p>审核外观、品牌、包装、性能与合规要求。</p></article>
+        <article><h3>准备批量生产</h3><p>确认正式报价、付款条款、交期、验货与运输计划。</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section customization-section">
+    <div class="container customization-grid">
+      <div><h2>常见定制内容</h2><p>最终可行性取决于产品型号、订单数量与技术评审。</p></div>
+      <div class="customization-list">
+        <span>颜色匹配</span><span>Logo 工艺</span><span>零售包装</span><span>外箱唛头</span><span>配件组合</span><span>结构开发</span><span>模具支持</span><span>验货规划</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section final-cta">
+    <div class="container final-cta-inner">
+      <div><h2>已准备好产品需求？</h2><p>请发送参考图片、目标容量、采购数量和销售市场。</p></div>
+      <div class="hero-actions"><a class="button button-primary" href={whatsappUrl("", "", "zh")} data-track="whatsapp_click">WhatsApp 咨询</a><a class="button button-secondary" href="/zh/contact/">申请报价</a></div>
+    </div>
+  </section>
+</BaseLayout>

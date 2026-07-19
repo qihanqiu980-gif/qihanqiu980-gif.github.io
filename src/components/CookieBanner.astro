@@ -1,0 +1,14 @@
+---
+import type { Locale } from "../config";
+interface Props { locale?: Locale; }
+const { locale = "en" } = Astro.props;
+const isZh = locale === "zh";
+---
+
+<aside class="cookie-banner" data-cookie-banner hidden aria-label={isZh ? "Cookie 偏好" : "Cookie preferences"}>
+  <p>{isZh ? "本站仅使用必要的本地存储来记住您的选择。只有在配置有效统计 ID 并获得同意后，才会启用分析。" : "This site uses essential storage for preferences. Analytics will run only after valid tracking IDs are configured and consent is given."}</p>
+  <div class="cookie-actions">
+    <button class="button button-secondary button-small" type="button" data-cookie-essential>{isZh ? "仅必要存储" : "Essential only"}</button>
+    <button class="button button-primary button-small" type="button" data-cookie-accept>{isZh ? "同意分析" : "Accept analytics"}</button>
+  </div>
+</aside>

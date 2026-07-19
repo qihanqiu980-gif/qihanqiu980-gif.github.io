@@ -1,0 +1,107 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import ProductCard from "../../../components/ProductCard.astro";
+import { allProducts, formatPrice, productCopy, whatsappUrl } from "../../../lib/products";
+
+export function getStaticPaths() {
+  return allProducts.map((product) => ({ params: { slug: product.slug }, props: { product } }));
+}
+
+const { product } = Astro.props;
+const copy = productCopy(product, "zh");
+const related = allProducts.filter((item) => item.series === product.series && item.slug !== product.slug).slice(0, 4);
+const description = `${copy.title}，提供批发参考价、产品规格与 OEM/ODM 询价服务。`;
+const productSchema = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  name: copy.title,
+  model: copy.model,
+  brand: { "@type": "Brand", name: "LONFRO" },
+  image: new URL(product.image, Astro.url).href,
+  description
+};
+---
+
+<BaseLayout locale="zh" title={`${copy.title} | LONFRO`} description={description} image={product.image}>
+  <script type="application/ld+json" set:html={JSON.stringify(productSchema)}></script>
+  <section class="product-detail">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="面包屑导航">
+        <a href="/zh/">首页</a><span>/</span><a href="/zh/products/">产品中心</a><span>/</span><a href={`/zh/series/${product.series}/`}>{copy.seriesName}</a>
+      </nav>
+      <div class="product-detail-grid">
+        <div class="detail-media">
+          <img src={product.image} alt={copy.title} width="900" height="900" loading="eager" />
+        </div>
+        <div class="detail-copy">
+          <p class="product-series">{copy.seriesName}</p>
+          <h1>{copy.title}</h1>
+          <p class="detail-model">型号：{copy.model}</p>
+          <p class="detail-intro">适用于批发采购和经评估的 OEM/ODM 项目。请联系我们确认颜色、包装、生产交期和交付条款。</p>
+
+          <div class="pricing-panel">
+            <div><span>500 件及以下</span><strong>{formatPrice(product.pricing.under500, "zh")}</strong></div>
+            <div><span>501-999 件</span><strong>联系询价</strong></div>
+            <div><span>1,000 件及以上</span><strong>{formatPrice(product.pricing.over1000, "zh")}</strong></div>
+          </div>
+          <p class="price-disclaimer">以上为美元批发参考价，不含税费、关税和运输费用，最终价格以正式报价单为准。</p>
+
+          <label class="field quantity-field">
+            <span>预计采购数量</span>
+            <input type="number" min="1" step="1" placeholder="例如：500" data-product-quantity />
+          </label>
+          <div class="detail-actions">
+            <a class="button button-primary" href={whatsappUrl(copy.model, "", "zh")} data-product-whatsapp data-model={copy.model} data-locale="zh" data-track="whatsapp_click">WhatsApp 咨询</a>
+            <a class="button button-secondary" href={`/zh/contact/?model=${encodeURIComponent(copy.model)}`}>申请报价</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section specs-section">
+    <div class="container">
+      <div class="section-heading compact-heading">
+        <h2>产品规格</h2>
+        <p>以下数据来自当前工厂报价表，保留原始型号便于订单核对。</p>
+      </div>
+      <div class="spec-grid">
+        <article>
+          <h3>结构与材料</h3>
+          <dl>
+            <div><dt>材料</dt><dd>{copy.material || "请联系确认材料规格"}</dd></div>
+            <div><dt>可选颜色</dt><dd>{copy.colors || "请联系确认颜色"}</dd></div>
+          </dl>
+        </article>
+        <article>
+          <h3>尺寸与重量</h3>
+          <dl>
+            <div><dt>产品尺寸</dt><dd>{copy.sizes || "请联系确认尺寸"}</dd></div>
+            <div><dt>净重</dt><dd>{product.netWeightKg ? `${product.netWeightKg} kg` : "待确认"}</dd></div>
+            <div><dt>毛重</dt><dd>{product.grossWeightKg ? `${product.grossWeightKg} kg` : "待确认"}</dd></div>
+          </dl>
+        </article>
+        <article>
+          <h3>包装信息</h3>
+          <dl>
+            <div><dt>包装方式</dt><dd>{copy.packing || "请联系确认包装"}</dd></div>
+            <div><dt>每箱数量</dt><dd>{product.cartonQty || "待确认"}</dd></div>
+          </dl>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="section related-section">
+      <div class="container">
+        <div class="section-heading compact-heading"><h2>{copy.seriesName}的更多产品</h2></div>
+        <div class="related-grid">{related.map((item) => <ProductCard product={item} locale="zh" />)}</div>
+      </div>
+    </section>
+  )}
+  <script is:inline define:vars={{ productModel: copy.model }}>
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: "product_view", model: productModel });
+  </script>
+</BaseLayout>

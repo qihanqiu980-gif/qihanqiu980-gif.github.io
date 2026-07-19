@@ -1,0 +1,115 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ProductCard from "../../components/ProductCard.astro";
+import { allProducts, formatPrice, whatsappUrl } from "../../lib/products";
+
+export function getStaticPaths() {
+  return allProducts.map((product) => ({ params: { slug: product.slug }, props: { product } }));
+}
+
+const { product } = Astro.props;
+const related = allProducts.filter((item) => item.series === product.series && item.slug !== product.slug).slice(0, 4);
+const description = `${product.title} from LONFRO with wholesale reference pricing, product specifications and OEM/ODM inquiry options.`;
+const productSchema = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  name: product.title,
+  model: product.model,
+  brand: { "@type": "Brand", name: "LONFRO" },
+  image: new URL(product.image, Astro.url).href,
+  description
+};
+---
+
+<BaseLayout title={`${product.title} | LONFRO`} description={description} image={product.image}>
+  <script type="application/ld+json" set:html={JSON.stringify(productSchema)}></script>
+  <section class="product-detail">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a><span>/</span><a href="/products/">Products</a><span>/</span><a href={`/series/${product.series}/`}>{product.seriesName}</a>
+      </nav>
+      <div class="product-detail-grid">
+        <div class="detail-media">
+          <img src={product.image} alt={product.title} width="900" height="900" loading="eager" />
+        </div>
+        <div class="detail-copy">
+          <p class="product-series">{product.seriesName}</p>
+          <h1>{product.title}</h1>
+          <p class="detail-model">Model: {product.model}</p>
+          <p class="detail-intro">Insulated cooler available for wholesale orders and qualified OEM/ODM programs. Contact us to confirm color, packaging, production lead time and delivery terms.</p>
+
+          <div class="pricing-panel">
+            <div>
+              <span>Up to 500 pcs</span>
+              <strong>{formatPrice(product.pricing.under500)}</strong>
+            </div>
+            <div>
+              <span>501-999 pcs</span>
+              <strong>Contact for Price</strong>
+            </div>
+            <div>
+              <span>1,000+ pcs</span>
+              <strong>{formatPrice(product.pricing.over1000)}</strong>
+            </div>
+          </div>
+          <p class="price-disclaimer">Reference wholesale prices exclude tax, duties and shipping. Final pricing is subject to the formal quotation.</p>
+
+          <label class="field quantity-field">
+            <span>Expected purchase quantity</span>
+            <input type="number" min="1" step="1" placeholder="Example: 500" data-product-quantity />
+          </label>
+          <div class="detail-actions">
+            <a class="button button-primary" href={whatsappUrl(product.model)} data-product-whatsapp data-model={product.model} data-track="whatsapp_click">Chat on WhatsApp</a>
+            <a class="button button-secondary" href={`/contact/?model=${encodeURIComponent(product.model)}`}>Request a Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section specs-section">
+    <div class="container">
+      <div class="section-heading compact-heading">
+        <h2>Product specifications</h2>
+        <p>Values below are translated from the current factory quotation workbook. Original model references are preserved for order verification.</p>
+      </div>
+      <div class="spec-grid">
+        <article>
+          <h3>Construction</h3>
+          <dl>
+            <div><dt>Materials</dt><dd>{product.material || "Contact for specification"}</dd></div>
+            <div><dt>Available colors</dt><dd>{product.colors || "Contact for options"}</dd></div>
+          </dl>
+        </article>
+        <article>
+          <h3>Dimensions and weight</h3>
+          <dl>
+            <div><dt>Product sizes</dt><dd>{product.sizes || "Contact for dimensions"}</dd></div>
+            <div><dt>Net weight</dt><dd>{product.netWeightKg ? `${product.netWeightKg} kg` : "To be confirmed"}</dd></div>
+            <div><dt>Gross weight</dt><dd>{product.grossWeightKg ? `${product.grossWeightKg} kg` : "To be confirmed"}</dd></div>
+          </dl>
+        </article>
+        <article>
+          <h3>Packing</h3>
+          <dl>
+            <div><dt>Pack format</dt><dd>{product.packing || "Contact for packing details"}</dd></div>
+            <div><dt>Units per carton</dt><dd>{product.cartonQty || "To be confirmed"}</dd></div>
+          </dl>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="section related-section">
+      <div class="container">
+        <div class="section-heading compact-heading"><h2>More from {product.seriesName}</h2></div>
+        <div class="related-grid">{related.map((item) => <ProductCard product={item} />)}</div>
+      </div>
+    </section>
+  )}
+  <script is:inline define:vars={{ productModel: product.model }}>
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: "product_view", model: productModel });
+  </script>
+</BaseLayout>

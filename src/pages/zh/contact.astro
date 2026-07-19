@@ -1,0 +1,51 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { siteConfig } from "../../config";
+import { whatsappUrl } from "../../lib/products";
+---
+
+<BaseLayout locale="zh" title="联系我们与申请报价 | LONFRO" description="联系 LONFRO，咨询保温箱批发价格、规格、交期及 OEM/ODM 项目。">
+  <section class="page-hero contact-hero">
+    <div class="container narrow-heading">
+      <p class="eyebrow">申请报价</p>
+      <h1>告诉我们您需要什么。</h1>
+      <p>请填写产品型号、预计数量和目的市场，我们将回复正式报价所需的下一步信息。</p>
+    </div>
+  </section>
+
+  <section class="section contact-section">
+    <div class="container contact-grid">
+      <div class="contact-aside">
+        <h2>直接联系</h2>
+        <p>如需快速沟通产品和采购数量，建议优先使用 WhatsApp。</p>
+        <a class="button button-primary" href={whatsappUrl("", "", "zh")} data-track="whatsapp_click">WhatsApp 咨询</a>
+        <dl>
+          <div><dt>WhatsApp</dt><dd>{siteConfig.whatsappDisplay}</dd></div>
+          <div><dt>电子邮箱</dt><dd><a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a></dd></div>
+          <div><dt>制造企业</dt><dd>{siteConfig.companyZh}</dd></div>
+        </dl>
+      </div>
+
+      <form class="quote-form" action={siteConfig.formspreeEndpoint} method="POST" data-quote-form>
+        <div class="form-grid">
+          <label class="field"><span>姓名 *</span><input name="name" autocomplete="name" required /></label>
+          <label class="field"><span>公司名称 *</span><input name="company" autocomplete="organization" required /></label>
+          <label class="field"><span>国家 / 地区</span><input name="country" autocomplete="country-name" /></label>
+          <label class="field"><span>电子邮箱</span><input type="email" name="email" autocomplete="email" /></label>
+          <label class="field"><span>WhatsApp</span><input name="whatsapp" autocomplete="tel" /></label>
+          <label class="field"><span>产品型号 *</span><input name="product_model" data-model-field required /></label>
+          <label class="field"><span>采购数量 *</span><input type="number" min="1" name="purchase_quantity" required /></label>
+          <label class="field field-wide"><span>需求说明</span><textarea name="requirements" rows="5" placeholder="颜色、包装、目的市场、目标日期或 OEM/ODM 需求"></textarea></label>
+        </div>
+        <input type="hidden" name="_subject" value="LONFRO 中文网站新询盘" />
+        <button class="button button-primary" type="submit">提交询盘</button>
+        <p class="form-note">当前表单仍为占位配置。正式上线前，请在 <code>src/config.ts</code> 中替换 Formspree 地址。</p>
+      </form>
+    </div>
+  </section>
+  <script is:inline>
+    const model = new URLSearchParams(window.location.search).get("model");
+    const field = document.querySelector("[data-model-field]");
+    if (model && field) field.value = model;
+  </script>
+</BaseLayout>

@@ -1,0 +1,51 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { siteConfig } from "../config";
+import { whatsappUrl } from "../lib/products";
+---
+
+<BaseLayout title="Contact and Request a Quote | LONFRO" description="Contact LONFRO for wholesale cooler pricing, specifications, lead time and OEM/ODM project review.">
+  <section class="page-hero contact-hero">
+    <div class="container narrow-heading">
+      <p class="eyebrow">Request a quote</p>
+      <h1>Tell us what you need.</h1>
+      <p>Include the model, expected quantity and destination market. We will respond with next-step details for a formal quotation.</p>
+    </div>
+  </section>
+
+  <section class="section contact-section">
+    <div class="container contact-grid">
+      <div class="contact-aside">
+        <h2>Direct contact</h2>
+        <p>WhatsApp is the fastest option for product and quantity discussions.</p>
+        <a class="button button-primary" href={whatsappUrl()} data-track="whatsapp_click">Chat on WhatsApp</a>
+        <dl>
+          <div><dt>WhatsApp</dt><dd>{siteConfig.whatsappDisplay}</dd></div>
+          <div><dt>Email</dt><dd><a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a></dd></div>
+          <div><dt>Manufacturer</dt><dd>{siteConfig.company}</dd></div>
+        </dl>
+      </div>
+
+      <form class="quote-form" action={siteConfig.formspreeEndpoint} method="POST" data-quote-form>
+        <div class="form-grid">
+          <label class="field"><span>Name *</span><input name="name" autocomplete="name" required /></label>
+          <label class="field"><span>Company *</span><input name="company" autocomplete="organization" required /></label>
+          <label class="field"><span>Country / Region</span><input name="country" autocomplete="country-name" /></label>
+          <label class="field"><span>Email</span><input type="email" name="email" autocomplete="email" /></label>
+          <label class="field"><span>WhatsApp</span><input name="whatsapp" autocomplete="tel" /></label>
+          <label class="field"><span>Product Model *</span><input name="product_model" data-model-field required /></label>
+          <label class="field"><span>Purchase Quantity *</span><input type="number" min="1" name="purchase_quantity" required /></label>
+          <label class="field field-wide"><span>Requirements</span><textarea name="requirements" rows="5" placeholder="Color, packaging, destination market, target date or OEM/ODM needs"></textarea></label>
+        </div>
+        <input type="hidden" name="_subject" value="New LONFRO website inquiry" />
+        <button class="button button-primary" type="submit">Submit Inquiry</button>
+        <p class="form-note">Form delivery is in placeholder mode. Replace the Formspree endpoint in <code>src/config.ts</code> before launch.</p>
+      </form>
+    </div>
+  </section>
+  <script is:inline>
+    const model = new URLSearchParams(window.location.search).get("model");
+    const field = document.querySelector("[data-model-field]");
+    if (model && field) field.value = model;
+  </script>
+</BaseLayout>

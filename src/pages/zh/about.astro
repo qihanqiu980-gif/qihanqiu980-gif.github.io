@@ -1,0 +1,58 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { whatsappUrl } from "../../lib/products";
+---
+
+<BaseLayout locale="zh" title="关于 LONFRO | 保温箱制造" description="了解 LONFRO 背后的制造经验、生产规模与全球市场支持能力。">
+  <section class="page-hero">
+    <div class="container narrow-heading">
+      <p class="eyebrow">关于制造企业</p>
+      <h1>为全球保温箱项目提供深度制造支持。</h1>
+      <p>LONFRO 由广东冰能科技有限公司提供制造支持，专注于高性能保冷产品和国际化生产合作。</p>
+    </div>
+  </section>
+
+  <section class="section about-story">
+    <div class="container about-grid">
+      <div>
+        <h2>数十年积累的制造基础。</h2>
+        <p>公司于 1993 年从塑胶和五金制造起步，随后扩展至汽车零部件供应，并逐步建立专业制冷产品业务。</p>
+        <p>如今，企业已形成集设计、工程、模具、成型、发泡、装配、实验室测试和生产检验于一体的制造体系。</p>
+      </div>
+      <div class="history-list">
+        <article><strong>1993</strong><p>建立塑胶和五金制造基础。</p></article>
+        <article><strong>2008</strong><p>扩展制冷产品制造与国际 OEM 合作。</p></article>
+        <article><strong>2013</strong><p>广东冰能科技有限公司正式成立。</p></article>
+        <article><strong>2023</strong><p>佛山工业 4.0 智能制造项目持续推进。</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section fact-section">
+    <div class="container fact-grid">
+      <article><strong>88 亩</strong><p>现代化制造园区</p></article>
+      <article><strong>100,000+ m²</strong><p>生产建筑面积</p></article>
+      <article><strong>5 条发泡线</strong><p>专业保温层生产</p></article>
+      <article><strong>2 条自动化线</strong><p>一体化制造能力</p></article>
+      <article><strong>4,000,000+</strong><p>年产能</p></article>
+      <article><strong>64+ 个案例</strong><p>已记录合作项目</p></article>
+    </div>
+  </section>
+
+  <section class="section quality-section">
+    <div class="container quality-grid">
+      <div>
+        <h2>质量与合规支持</h2>
+        <p>企业画册列有 FCC、BSCI、CE、KC 和 SGS 等资质。具体项目所需的认证范围，应在报价与产品验证阶段确认。</p>
+      </div>
+      <div class="quality-list"><span>FCC</span><span>BSCI</span><span>CE</span><span>KC</span><span>SGS</span></div>
+    </div>
+  </section>
+
+  <section class="section final-cta">
+    <div class="container final-cta-inner">
+      <div><h2>沟通您的渠道项目。</h2><p>请告诉我们目标市场、意向型号和预计年采购量。</p></div>
+      <a class="button button-primary" href={whatsappUrl("", "", "zh")} data-track="whatsapp_click">WhatsApp 咨询</a>
+    </div>
+  </section>
+</BaseLayout>

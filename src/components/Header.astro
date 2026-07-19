@@ -1,0 +1,43 @@
+---
+import { localePath, siteConfig, type Locale } from "../config";
+import { whatsappUrl } from "../lib/products";
+
+interface Props { locale?: Locale; }
+const { locale = "en" } = Astro.props;
+const isZh = locale === "zh";
+const currentPath = Astro.url.pathname;
+const homePath = localePath("/", locale);
+const productsPath = localePath("/products/", locale);
+const proPath = localePath("/series/pro/", locale);
+const oemPath = localePath("/oem-odm/", locale);
+const aboutPath = localePath("/about/", locale);
+const contactPath = localePath("/contact/", locale);
+const languagePath = `${localePath(currentPath, isZh ? "en" : "zh")}${Astro.url.search}`;
+---
+
+<div class="utility-bar">
+  <div class="container utility-inner">
+    <span>{isZh ? "公开批发参考价" : "Wholesale reference pricing"}</span>
+    <span>{isZh ? "OEM / ODM 定制生产" : "OEM / ODM manufacturing"}</span>
+    <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
+  </div>
+</div>
+<header class="site-header" data-header>
+  <div class="container nav-shell">
+    <a class="brand" href={homePath} aria-label={isZh ? "LONFRO 中文首页" : "LONFRO home"}>
+      <img src="/images/brand/lonfro-logo.webp" width="230" height="70" alt="LONFRO" />
+    </a>
+    <button class="menu-toggle" type="button" aria-label={isZh ? "打开导航" : "Open navigation"} aria-expanded="false" data-menu-toggle data-open-label={isZh ? "打开导航" : "Open navigation"} data-close-label={isZh ? "关闭导航" : "Close navigation"}>
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" aria-label={isZh ? "主导航" : "Primary navigation"} data-menu>
+      <a href={productsPath}>{isZh ? "全部产品" : "Products"}</a>
+      <a href={proPath}>{isZh ? "Pro 系列" : "Pro Series"}</a>
+      <a href={oemPath}>OEM / ODM</a>
+      <a href={aboutPath}>{isZh ? "关于我们" : "About"}</a>
+      <a href={contactPath}>{isZh ? "联系询价" : "Contact"}</a>
+      <a class="language-link" href={languagePath} lang={isZh ? "en" : "zh-CN"}>{isZh ? "English" : "中文"}</a>
+    </nav>
+    <a class="button button-primary nav-cta" href={whatsappUrl("", "", locale)} data-track="whatsapp_click">{isZh ? "WhatsApp 咨询" : "Chat on WhatsApp"}</a>
+  </div>
+</header>
