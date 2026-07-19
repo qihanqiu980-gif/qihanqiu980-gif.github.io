@@ -87,7 +87,7 @@
     update();
   }
 
-  const rfqStorageKey = "lonfro-rfq-v1";
+  const rfqStorageKey = "lonfro-rfq-v2";
   const readRfq = () => {
     try {
       const value = JSON.parse(localStorage.getItem(rfqStorageKey) || "[]");
@@ -107,20 +107,26 @@
 
   const updateRfq = () => {
     const items = readRfq();
+    const isZhDialog = rfqDialog?.dataset.locale === "zh";
     document.querySelectorAll("[data-rfq-count]").forEach((count) => { count.textContent = String(items.length); });
     if (!rfqList || !rfqDialog) return;
 
     rfqList.replaceChildren();
     items.forEach((item, index) => {
+      const itemTitle = isZhDialog ? (item.titleZh || item.title) : (item.titleEn || item.title);
+      const itemColor = isZhDialog ? (item.colorZh || item.color) : (item.colorEn || item.color);
+      const itemWheel = isZhDialog ? (item.wheelZh || item.wheel) : (item.wheelEn || item.wheel);
+      const itemAccessories = isZhDialog ? (item.accessoriesZh || item.accessories || []) : (item.accessoriesEn || item.accessories || []);
+      const itemUrl = item.slug ? `${isZhDialog ? "/zh" : ""}/products/${item.slug}/` : item.url;
       const article = document.createElement("article");
       article.className = "rfq-item";
 
       const imageLink = document.createElement("a");
       imageLink.className = "rfq-item-image";
-      imageLink.href = item.url;
+      imageLink.href = itemUrl;
       const image = document.createElement("img");
       image.src = item.image;
-      image.alt = item.title;
+      image.alt = itemTitle;
       image.width = 96;
       image.height = 96;
       imageLink.append(image);
@@ -128,19 +134,19 @@
       const copy = document.createElement("div");
       copy.className = "rfq-item-copy";
       const title = document.createElement("a");
-      title.href = item.url;
+      title.href = itemUrl;
       title.className = "rfq-item-title";
-      title.textContent = item.title;
+      title.textContent = itemTitle;
       const meta = document.createElement("p");
-      meta.textContent = [item.color, item.wheel, ...(item.accessories || [])].filter(Boolean).join(" / ");
+      meta.textContent = [itemColor, itemWheel, ...itemAccessories].filter(Boolean).join(" / ");
       const quantity = document.createElement("strong");
-      quantity.textContent = `${Number(item.quantity).toLocaleString("en-US")} pcs${item.unitPrice ? ` × $${Number(item.unitPrice).toFixed(2)}` : ""}`;
+      quantity.textContent = `${Number(item.quantity).toLocaleString("en-US")} ${isZhDialog ? "件" : "pcs"}${item.unitPrice ? ` × $${Number(item.unitPrice).toFixed(2)}` : ""}`;
       copy.append(title, meta, quantity);
 
       const remove = document.createElement("button");
       remove.className = "rfq-item-remove";
       remove.type = "button";
-      remove.textContent = rfqDialog.dataset.locale === "zh" ? "移除" : "Remove";
+      remove.textContent = isZhDialog ? "移除" : "Remove";
       remove.addEventListener("click", () => {
         const next = readRfq();
         next.splice(index, 1);
@@ -157,17 +163,16 @@
     if (rfqWhatsapp) {
       rfqWhatsapp.toggleAttribute("aria-disabled", items.length === 0);
       rfqWhatsapp.classList.toggle("is-disabled", items.length === 0);
-      const isZh = rfqDialog.dataset.locale === "zh";
       const lines = items.flatMap((item, index) => [
-        `${index + 1}. ${item.model}`,
-        `${isZh ? "颜色" : "Color"}: ${item.color}`,
-        `${isZh ? "轮子" : "Wheels"}: ${item.wheel}`,
-        `${isZh ? "配件 / 定制" : "Accessories / customization"}: ${(item.accessories || []).join(", ") || (isZh ? "无额外需求" : "No additional request")}`,
-        `${isZh ? "数量" : "Quantity"}: ${item.quantity} pcs`,
-        `${isZh ? "单件参考价" : "Unit reference"}: ${item.unitPrice ? `$${Number(item.unitPrice).toFixed(2)} USD / pc` : (isZh ? "联系询价" : "Contact for Price")}`,
+        `${index + 1}. ${isZhDialog ? (item.modelZh || item.model) : (item.modelEn || item.model)}`,
+        `${isZhDialog ? "颜色" : "Color"}: ${isZhDialog ? (item.colorZh || item.color) : (item.colorEn || item.color)}`,
+        `${isZhDialog ? "轮子" : "Wheels"}: ${isZhDialog ? (item.wheelZh || item.wheel) : (item.wheelEn || item.wheel)}`,
+        `${isZhDialog ? "配件 / 定制" : "Accessories / customization"}: ${(isZhDialog ? (item.accessoriesZh || item.accessories || []) : (item.accessoriesEn || item.accessories || [])).join(", ") || (isZhDialog ? "无额外需求" : "No additional request")}`,
+        `${isZhDialog ? "数量" : "Quantity"}: ${item.quantity} ${isZhDialog ? "件" : "pcs"}`,
+        `${isZhDialog ? "单件参考价" : "Unit reference"}: ${item.unitPrice ? `$${Number(item.unitPrice).toFixed(2)} ${isZhDialog ? "美元 / 件" : "USD / pc"}` : (isZhDialog ? "联系询价" : "Contact for Price")}`,
         ""
       ]);
-      const heading = isZh
+      const heading = isZhDialog
         ? "您好 LONFRO，以下是我的 RFQ 询价清单。请确认规格、MOQ、样品、交期、包装、装柜量和正式报价："
         : "Hello LONFRO, this is my RFQ list. Please confirm specifications, MOQ, sample policy, lead time, packing, container load and a formal quotation:";
       rfqWhatsapp.href = `https://wa.me/85291242307?text=${encodeURIComponent([heading, "", ...lines].join("\n"))}`;
@@ -202,23 +207,47 @@
     const underPrice = Number(configurator.dataset.priceUnder) || null;
     const overPrice = Number(configurator.dataset.priceOver) || null;
 
-    const selectedRadio = (name) => configurator.querySelector(`[data-config-options="${name}"] input:checked`)?.value || "";
-    const selectedAccessories = () => [...configurator.querySelectorAll('[data-config-options="accessories"] input:checked')].map((input) => input.value);
+    const selectedOption = (name) => {
+      const input = configurator.querySelector(`[data-config-options="${name}"] input:checked`);
+      return {
+        current: input?.value || "",
+        en: input?.dataset.labelEn || input?.value || "",
+        zh: input?.dataset.labelZh || input?.value || ""
+      };
+    };
+    const selectedAccessories = () => [...configurator.querySelectorAll('[data-config-options="accessories"] input:checked')].map((input) => ({
+      current: input.value,
+      en: input.dataset.labelEn || input.value,
+      zh: input.dataset.labelZh || input.value
+    }));
     const priceFor = (quantity) => quantity <= 500 ? underPrice : quantity >= 1000 ? overPrice : null;
     const money = (value) => value === null ? (isZh ? "联系询价" : "Contact for Price") : `$${Number(value).toFixed(2)}`;
 
     const currentSelection = () => {
       const quantity = Math.max(1, Math.round(Number(quantityInput?.value) || 1));
       const unitPrice = priceFor(quantity);
+      const color = selectedOption("color");
+      const wheel = selectedOption("wheel");
+      const accessories = selectedAccessories();
       return {
         id: configurator.dataset.productId,
         slug: configurator.dataset.productSlug,
         title: configurator.dataset.productTitle,
         model: configurator.dataset.productModel,
+        titleEn: configurator.dataset.productTitleEn,
+        titleZh: configurator.dataset.productTitleZh,
+        modelEn: configurator.dataset.productModelEn,
+        modelZh: configurator.dataset.productModelZh,
         image: configurator.dataset.productImage,
-        color: selectedRadio("color"),
-        wheel: selectedRadio("wheel"),
-        accessories: selectedAccessories(),
+        color: color.current,
+        colorEn: color.en,
+        colorZh: color.zh,
+        wheel: wheel.current,
+        wheelEn: wheel.en,
+        wheelZh: wheel.zh,
+        accessories: accessories.map((item) => item.current),
+        accessoriesEn: accessories.map((item) => item.en),
+        accessoriesZh: accessories.map((item) => item.zh),
         quantity,
         unitPrice,
         url: `${isZh ? "/zh" : ""}/products/${configurator.dataset.productSlug}/`,
@@ -259,8 +288,8 @@
               `颜色：${selection.color}`,
               `轮子配置：${selection.wheel}`,
               `配件 / 定制：${accessories}`,
-              `采购数量：${selection.quantity} pcs`,
-              `单件参考价：${selection.unitPrice === null ? "联系询价" : `${money(selection.unitPrice)} USD / pc`}`,
+              `采购数量：${selection.quantity} 件`,
+              `单件参考价：${selection.unitPrice === null ? "联系询价" : `${money(selection.unitPrice)} 美元 / 件`}`,
               `参考货值：${total === null ? "联系询价" : `$${total.toFixed(2)}`}`,
               "请确认 MOQ、样品政策、交期、包装、装柜量和正式报价，谢谢。"
             ]
@@ -300,7 +329,7 @@
 
     addRfq?.addEventListener("click", () => {
       const selection = currentSelection();
-      const signature = [selection.id, selection.color, selection.wheel, ...selection.accessories].join("|");
+      const signature = [selection.id, selection.colorEn, selection.wheelEn, ...selection.accessoriesEn].join("|");
       const items = readRfq();
       const existingIndex = items.findIndex((item) => item.signature === signature);
       const item = { ...selection, signature };
